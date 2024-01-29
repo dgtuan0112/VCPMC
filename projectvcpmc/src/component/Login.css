@@ -1,0 +1,95 @@
+.title {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+.login_page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141424;
+}
+
+.login-form-container {
+  margin-bottom: 100px;
+}
+
+label.form-label {
+  width: 100%;
+  display: block;
+  color: #c8c8db;
+  font-size: 13px;
+}
+.form-label {
+  height: 40px;
+  display: block;
+  width: 100%;
+  padding: 17px 4px;
+}
+.form-check-label {
+  color: #c8c8db;
+  font-size: 13px;
+}
+.form-select {
+  height: 35px;
+  width: 130px;
+  color: #c8c8db;
+  font-size: 13px;
+  margin-left: auto;
+  padding-top: 8px;
+  background-color: #141424;
+}
+.select_page {
+  background-color: #141424;
+}
+
+.form-control {
+  height: 30px;
+  display: block;
+  width: 300px;
+  padding: 6px 12px;
+  background-color: #212132;
+  border: #c8c8db;
+}
+
+button.submit-btn {
+  height: 35px;
+  width: 120px;
+  background: #ff7506;
+  cursor: pointer;
+  color: #fff;
+  font-size: 13px;
+  margin-left: 100px;
+  margin-top: 30px;
+  border-radius: 6px;
+}
+
+.link {
+  color: #ff7506;
+  font-size: 13px;
+  margin-top: 600px;
+}
+
+.vnimg {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 4px;
+}
+
+.lgoimg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.forgot-pass {
+  color: #ff7506;
+  font-size: 13px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
