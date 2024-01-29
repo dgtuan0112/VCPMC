@@ -12,9 +12,9 @@
   background-color: #141424;
 }
 
-.login-form-container {
+/* .login-form-container {
   margin-bottom: 100px;
-}
+} */
 
 label.form-label {
   width: 100%;
@@ -61,15 +61,16 @@ button.submit-btn {
   cursor: pointer;
   color: #fff;
   font-size: 13px;
-  margin-left: 100px;
+  margin-left: 95px;
   margin-top: 30px;
   border-radius: 6px;
 }
 
-.link {
+.linkpage {
   color: #ff7506;
   font-size: 13px;
-  margin-top: 600px;
+  padding: 102px;
+  display: flex;
 }
 
 .vnimg {
@@ -90,6 +91,33 @@ button.submit-btn {
 .forgot-pass {
   color: #ff7506;
   font-size: 13px;
-  margin-left: 100px;
-  margin-top: 30px;
+}
+
+.input-container {
+  margin: 20px;
+}
+
+.custom-input {
+  padding: 10px;
+  border: 2px solid #212132;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.custom-input:focus,
+.custom-input.focused {
+  border-color: #0c4dff;
+}
+
+input#firt-name {
+  width: 300px;
+  height: 30px;
+  background-color: #212132;
+}
+
+input#conform-password {
+  width: 300px;
+  height: 30px;
+  background-color: #212132;
 }
