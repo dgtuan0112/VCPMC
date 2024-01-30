@@ -13,8 +13,8 @@
 }
 
 /* .login-form-container {
-  margin-bottom: 100px;
-} */
+    margin-bottom: 100px;
+  } */
 
 label.form-label {
   width: 100%;
@@ -118,12 +118,12 @@ input#firt-name {
 }
 
 input#conform-password {
-  width: 375px;
+  width: 300px;
   height: 30px;
   background-color: #212132;
 }
 
-.error-message {
-  color: #ff0000;
+.error-messagefogot {
+  color: #c8c8db;
   font-size: 13px;
 }

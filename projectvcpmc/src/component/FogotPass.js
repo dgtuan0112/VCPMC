@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logoImage from "../images/logo.jpg";
 import exampleImage from "../images/n.png";
-import "./Login.css";
+import "./FogotPass.css";
 
 const SelectExample = () => {
   const [isFocused, setIsFocused] = useState(false);
@@ -20,10 +20,9 @@ const SelectExample = () => {
     event.preventDefault();
 
     const username = event.target.elements["firt-name"].value;
-    const password = event.target.elements["conform-password"].value;
 
-    if (username !== "tuan" || password !== "112") {
-      setError("Sai tên đăng nhập hoặc mật khẩu");
+    if (username !== "tuan") {
+      setError("Vui lòng nhập địa chỉ email đã đăng kí để khôi phục mật khẩu");
     } else {
     }
   };
@@ -38,11 +37,16 @@ const SelectExample = () => {
       <div className="login_page">
         <div className="login-form-container">
           <img className="lgoimg" src={logoImage} alt="Logo" />
-          <h3 className="title">Đăng nhập</h3>
+          <h3 className="title">Khôi phục mật khẩu</h3>
           <form onSubmit={handleSubmit}>
+            {error && (
+              <div className="error-messagefogot">
+                {error} {""}
+              </div>
+            )}
             <div>
               <label htmlFor="firt-name" className="form-label">
-                Tên đăng nhập
+                Email
               </label>
               <input
                 id="firt-name"
@@ -53,25 +57,7 @@ const SelectExample = () => {
                 placeholder=""
               />
             </div>
-            <div className="mb-2">
-              <label htmlFor="conform-password" className="form-label">
-                Password
-              </label>
 
-              <input
-                id="conform-password"
-                className={isFocused ? "custom-input foucused" : "custom-input"}
-                onFocus={handleFocus}
-                onBlur={handleBlur}
-                type="password"
-                placeholder=""
-              />
-            </div>
-            {error && (
-              <div className="error-message">
-                {error} {""}
-              </div>
-            )}
             <div className="form-check">
               <input
                 className="form-check-input"
