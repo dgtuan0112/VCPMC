@@ -3,7 +3,7 @@ import logoImage from "../images/logo.jpg";
 import exampleImage from "../images/n.png";
 import "./FogotPass.css";
 
-const SelectExample = () => {
+const FogotPass = () => {
   const [isFocused, setIsFocused] = useState(false);
   const [error, setError] = useState(null);
 
@@ -76,9 +76,7 @@ const SelectExample = () => {
             </button>
           </form>
           <div classNam="forgot-pass">
-            <a className="linkpage" href="/#">
-              Quên mật khẩu?
-            </a>
+            <p className="linkpage">Quên mật khẩu?</p>
           </div>
         </div>
       </div>
@@ -86,4 +84,4 @@ const SelectExample = () => {
   );
 };
 
-export default SelectExample;
+export default FogotPass;

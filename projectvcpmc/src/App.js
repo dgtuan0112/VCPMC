@@ -1,23 +1,18 @@
-import "./App.css";
+// Import necessary libraries
+import React from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import FogotPass from "./component/FogotPass";
 import SelectExample from "./component/Login";
-function App() {
-  // // eslint-disable-next-line no-undef
-  // const dbRef = ref(database());
 
-  // // eslint-disable-next-line no-undef
-  // get(child(dbRef, "users"))
-  //   .then((snapshot) => {
-  //     if (snapshot.exists()) {
-  //       console.log(snapshot.val());
-  //     } else {
-  //       console.log("No data available");
-  //     }
-  //   })
-  //   .catch((error) => {
-  //     console.error(error);
-  //   });
-
-  return <SelectExample />;
-}
+const App = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<SelectExample />} />
+        <Route path="/fogotpass" element={<FogotPass />} />
+      </Routes>
+    </Router>
+  );
+};
 
 export default App;

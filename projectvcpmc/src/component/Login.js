@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import logoImage from "../images/logo.jpg";
 import exampleImage from "../images/n.png";
 import "./Login.css";
@@ -80,7 +81,7 @@ const SelectExample = () => {
                 id="flexCheckDefault"
               />
 
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Ghi nhớ đăng nhập
               </label>
             </div>
@@ -89,10 +90,10 @@ const SelectExample = () => {
               Đăng nhập
             </button>
           </form>
-          <div classNam="forgot-pass">
-            <a className="linkpage" href="/#">
-              Quên mật khẩu?
-            </a>
+          <div className="forgot-pass">
+            <NavLink className="linkpage" to="/fogotpass">
+              <p>Quên mật khẩu?</p>
+            </NavLink>
           </div>
         </div>
       </div>
