@@ -5,16 +5,12 @@
 }
 
 .login_page {
-  height: 100vh;
+  height: 130vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #141424;
 }
-
-/* .login-form-container {
-  margin-bottom: 100px;
-} */
 
 label.form-label {
   width: 100%;
@@ -70,6 +66,7 @@ button.submit-btn {
   color: #ff7506;
   font-size: 13px;
   padding: 131px;
+  padding-top: 100px;
   display: flex;
 }
 

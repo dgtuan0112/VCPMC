@@ -5,11 +5,11 @@ import "./FogotPass.css";
 
 const FogotPass = () => {
   const [isFocused, setIsFocused] = useState(false);
-  const [error, setError] = useState(null);
+  // const [error, setError] = useState(null);
 
   const handleFocus = () => {
     setIsFocused(true);
-    setError(null);
+    // setError(null);
   };
 
   const handleBlur = () => {
@@ -19,10 +19,10 @@ const FogotPass = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    const username = event.target.elements["firt-name"].value;
+    const email = event.target.elements["firt-name"].value;
 
-    if (username !== "tuan") {
-      setError("Vui lòng nhập địa chỉ email đã đăng kí để khôi phục mật khẩu");
+    if (email !== "tuan@gmail.com") {
+      // setError("Vui lòng nhập địa chỉ email đã đăng kí để khôi phục mật khẩu");
     } else {
     }
   };
@@ -39,11 +39,14 @@ const FogotPass = () => {
           <img className="lgoimg" src={logoImage} alt="Logo" />
           <h3 className="title">Khôi phục mật khẩu</h3>
           <form onSubmit={handleSubmit}>
-            {error && (
+            {/* {error && (
               <div className="error-messagefogot">
                 {error} {""}
               </div>
-            )}
+            )} */}
+            <p className="restoremail">
+              Vui lòng nhập địa chỉ email đã đăng kí để khôi phục mật khẩu
+            </p>
             <div>
               <label htmlFor="firt-name" className="form-label">
                 Email
@@ -57,7 +60,6 @@ const FogotPass = () => {
                 placeholder=""
               />
             </div>
-
             <div className="form-check">
               <input
                 className="form-check-input"
@@ -72,11 +74,11 @@ const FogotPass = () => {
             </div>
 
             <button type="submit" className="submit-btn">
-              Đăng nhập
+              Xác nhận
             </button>
           </form>
           <div classNam="forgot-pass">
-            <p className="linkpage">Quên mật khẩu?</p>
+            <p className="linkpagefogot">Quay lại đăng nhập</p>
           </div>
         </div>
       </div>
