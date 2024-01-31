@@ -1,7 +1,8 @@
-.title {
+.titlelog {
   text-align: center;
   color: #fff;
   font-weight: 700;
+  margin-left: 34px;
 }
 
 .login_page {
@@ -18,6 +19,11 @@ label.form-label {
   color: #c8c8db;
   font-size: 13px;
 }
+
+form {
+  margin-left: 57px;
+}
+
 .form-label {
   height: 40px;
   display: block;
@@ -62,11 +68,12 @@ button.submit-btn {
   border-radius: 6px;
 }
 
-.linkpage {
+.linkpagelog {
   color: #ff7506;
   font-size: 13px;
   padding: 131px;
   padding-top: 100px;
+  margin-left: 50px;
   display: flex;
 }
 
@@ -81,7 +88,7 @@ button.submit-btn {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  margin-left: 115px;
+  margin-left: 163px;
   margin-bottom: 20px;
   align-items: center;
   display: flex;
@@ -108,7 +115,7 @@ button.submit-btn {
   border-color: #0c4dff;
 }
 
-input#firt-name {
+input#firt-name-login {
   width: 375px;
   height: 30px;
   background-color: #212132;

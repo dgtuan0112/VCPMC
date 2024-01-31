@@ -39,10 +39,10 @@ const SelectExample = () => {
       <div className="login_page">
         <div className="login-form-container">
           <img className="lgoimg" src={logoImage} alt="Logo" />
-          <h3 className="title">Đăng nhập</h3>
+          <h3 className="titlelog">Đăng nhập</h3>
           <form onSubmit={handleSubmit}>
             <div>
-              <label htmlFor="firt-name" className="form-label">
+              <label htmlFor="firt-name-login" className="form-label">
                 Tên đăng nhập
               </label>
               <input
@@ -91,7 +91,7 @@ const SelectExample = () => {
             </button>
           </form>
           <div className="forgot-pass">
-            <NavLink className="linkpage" to="/fogotpass">
+            <NavLink className="linkpagelog" to="/fogotpass">
               <p>Quên mật khẩu?</p>
             </NavLink>
           </div>

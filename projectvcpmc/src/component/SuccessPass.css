@@ -1,19 +1,16 @@
-.title {
+.titlesucc {
   text-align: center;
   color: #fff;
   font-weight: 700;
+  margin-left: 38px;
 }
 
 .login_page {
-  height: 100vh;
+  height: 130vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #141424;
-}
-
-.login-form-container {
-  margin-bottom: 100px;
 }
 
 label.form-label {
@@ -22,6 +19,11 @@ label.form-label {
   color: #c8c8db;
   font-size: 13px;
 }
+
+form {
+  margin-left: 57px;
+}
+
 .form-label {
   height: 40px;
   display: block;
@@ -66,13 +68,13 @@ button.submit-btn {
   border-radius: 6px;
 }
 
-.linkpagefogot {
+.linkpagesucc {
   color: #ff7506;
   font-size: 13px;
-  padding: 121px;
-  padding-top: 146px;
+  padding: 131px;
+  margin-left: 108px;
+  padding-top: 180px;
   display: flex;
-  margin-left: 112px;
 }
 
 .vnimg {
@@ -86,9 +88,8 @@ button.submit-btn {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  margin-left: 220px;
-  margin-top: 125px;
-  margin-bottom: 28px;
+  margin-left: 228px;
+  margin-bottom: 20px;
   align-items: center;
   display: flex;
 }
@@ -114,31 +115,27 @@ button.submit-btn {
   border-color: #0c4dff;
 }
 
-input#firt-name {
+input#firt-name-login {
   width: 375px;
   height: 30px;
   background-color: #212132;
 }
 
 input#conform-password {
-  width: 300px;
+  width: 375px;
   height: 30px;
   background-color: #212132;
-}
-
-.error-messagefogot {
-  color: #c8c8db;
-  font-size: 13px;
-}
-
-.success-messagefogot {
-  color: #c8c8db;
-  font-size: 13px;
 }
 
 .restoremailsucc {
   color: #c8c8db;
   font-size: 13px;
-  margin-left: 60px;
-  margin-bottom: 4px;
+}
+.error-message {
+  color: #ff0000;
+  font-size: 13px;
+}
+
+.login-form-containersucc {
+  margin-bottom: 174px;
 }

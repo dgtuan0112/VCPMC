@@ -36,9 +36,9 @@ const SuccessPass = () => {
       </label>
 
       <div className="login_page">
-        <div className="login-form-container">
+        <div className="login-form-containersucc">
           <img className="lgoimgsucc" src={logoImage} alt="Logo" />
-          <h3 className="title">Khôi phục mật khẩu</h3>
+          <h3 className="titlesucc">Khôi phục mật khẩu</h3>
 
           {isSubmitSuccessful ? (
             <div className="success-message">
@@ -61,7 +61,7 @@ const SuccessPass = () => {
 
           <div className="forgot-pass">
             {!isSubmitSuccessful && (
-              <p className="linkpagefogot">Quay lại đăng nhập</p>
+              <p className="linkpagesucc">Quay lại đăng nhập</p>
             )}
           </div>
         </div>
