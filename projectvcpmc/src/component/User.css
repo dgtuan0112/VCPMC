@@ -1,0 +1,38 @@
+.page_user {
+  height: 130vh;
+
+  background-color: #141424;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.form-select {
+  height: 35px;
+  width: 130px;
+  background-color: #020220;
+  color: #c8c8db;
+  font-size: 13px;
+  margin-left: auto;
+  padding-top: 8px;
+  background-color: #141424;
+}
+
+.collapse navbar-collapse {
+  background-color: #020220;
+}
+
+.menubar {
+  font-size: 10px;
+  width: 130px;
+  height: 700px;
+  background-color: #020220;
+  border-radius: 10%;
+}
+
+.navbar-expand {
+  height: 680px;
+}
