@@ -9,7 +9,7 @@
   height: 60px;
   border-radius: 50%;
   margin-left: 21px;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 .form-select {
@@ -38,7 +38,8 @@
 
 a.nav-link {
   color: #c8c8db;
-  margin-left: 25px;
+  margin-left: 10px;
+  text-align: center;
 }
 
 svg.svg-inline--fa.fa-sliders {
@@ -49,29 +50,58 @@ svg.svg-inline--fa.fa-sliders {
 svg.svg-inline--fa.fa-list {
   margin-left: 40px;
   font-size: 18px;
+  padding-top: 13px;
 }
 
 svg.svg-inline--fa.fa-calendar-days {
   margin-left: 40px;
   font-size: 18px;
+  padding-top: 13px;
 }
 
 svg.svg-inline--fa.fa-file {
   margin-left: 40px;
   font-size: 18px;
+  padding-top: 13px;
 }
 
 svg.svg-inline--fa.fa-dollar-sign {
   margin-left: 40px;
   font-size: 18px;
+  padding-top: 13px;
 }
 
 svg.svg-inline--fa.fa-gear {
   margin-left: 40px;
   font-size: 18px;
+  padding-top: 13px;
 }
 
 svg.svg-inline--fa.fa-circle-question {
   margin-left: 40px;
   font-size: 18px;
+  padding-top: 13px;
+}
+
+h3 {
+  margin-left: 163px;
+  margin-top: -60px;
+}
+
+/* .right-align {
+  text-align: right;
+} */
+.avar {
+  border-radius: 50%;
+  margin-left: -73px;
+
+  width: 160px;
+}
+.avarname {
+  margin-bottom: 182px;
+}
+
+.adname {
+  font-size: 18px;
+  margin-left: -37px;
 }
