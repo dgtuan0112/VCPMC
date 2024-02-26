@@ -15,12 +15,11 @@
 .form-select {
   height: 35px;
   width: 130px;
-  background-color: #020220;
+
   color: #c8c8db;
   font-size: 13px;
   margin-left: auto;
   padding-top: 8px;
-  background-color: #141424;
 }
 
 .collapse navbar-collapse {

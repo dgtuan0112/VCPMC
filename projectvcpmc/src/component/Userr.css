@@ -1,0 +1,116 @@
+.infor_page {
+  background-color: #141424;
+  color: #c8c8db;
+  /* width: 1140px; */
+}
+
+.col-2s {
+  background-color: #020220;
+  width: 162px;
+  height: 550px;
+  margin-left: -53px;
+}
+
+img.logo {
+  margin-left: 31px;
+  width: 70px;
+  border-radius: 50%;
+  margin-bottom: 65px;
+}
+img.avar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+svg.svg-inline--fa.fa-sliders {
+  margin-left: 56px;
+}
+
+svg.svg-inline--fa.fa-list {
+  margin-left: 56px;
+}
+
+svg.svg-inline--fa.fa-calendar-days {
+  margin-left: 56px;
+}
+
+svg.svg-inline--fa.fa-file {
+  margin-left: 56px;
+}
+
+svg.svg-inline--fa.fa-calendar-days {
+  margin-left: 56px;
+}
+
+svg.svg-inline--fa.fa-dollar-sign {
+  margin-left: 56px;
+}
+
+svg.svg-inline--fa.fa-gear {
+  margin-left: 56px;
+}
+svg.svg-inline--fa.fa-circle-question {
+  margin-left: 56px;
+}
+/* menumini */
+svg.svg-inline--fa.fa-arrow-right-from-bracket {
+  margin-left: 21px;
+}
+
+svg.svg-inline--fa.fa-lock {
+  margin-left: 21px;
+}
+
+svg.svg-inline--fa.fa-pen-to-square {
+  margin-left: 21px;
+}
+
+a.nav-link {
+  text-align: center;
+  font-size: 12px;
+}
+
+input#inputPassword5 {
+  width: 177px;
+}
+
+input#exampleInputEmail1 {
+  margin-bottom: -14px;
+}
+
+button.btn.btn-primary {
+  margin-top: 36px;
+  margin-left: 9px;
+}
+
+.col-5 {
+  margin-left: -90px;
+}
+
+h5 {
+  margin-left: 79px;
+  margin-top: 10px;
+}
+
+button.btn.btn-primary.\32 {
+  background-color: #ff7506;
+  width: 90px;
+}
+
+button.btn.btn-primary.\31 {
+  width: 90px;
+  color: #ff7506;
+  background-color: #141424;
+  border: 1px solid #ff7506;
+}
+
+.col-2.action {
+  background-color: #2f2f41;
+  width: 84px;
+  height: 216px;
+  margin-left: 237px;
+  margin-top: 130px;
+  border-radius: 3%;
+}
