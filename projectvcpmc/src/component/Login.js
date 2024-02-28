@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logoImage from "../images/logo.jpg";
 import exampleImage from "../images/n.png";
-import "./Login.css";
 
 const SelectExample = () => {
   const [isFocused, setIsFocused] = useState(false);

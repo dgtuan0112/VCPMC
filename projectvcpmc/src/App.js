@@ -17,6 +17,14 @@ const App = () => {
       </Routes>
     </Router>
   );
+  //   {/* <Router>
+  // <Routes>
+  //   <Route path="/" element={<Userr />} />
+  //   <Route path="/fogotpass" element={<FogotPass />} />
+
+  //   <Route path="/success-pass" element={<SuccessPass />} />
+  // </Routes>
+  // </Router> */}
 };
 
 export default App;

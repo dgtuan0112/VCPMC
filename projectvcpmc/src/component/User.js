@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import
 import logoImage from "../images/logo.jpg";
 import exampleImage from "../images/n.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,7 +14,8 @@ import { faGear } from "@fortawesome/free-solid-svg-icons";
 import { faCircleQuestion } from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-import "./User.css";
+
+
 
 const User = () => {
   return (

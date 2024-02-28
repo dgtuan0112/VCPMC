@@ -11,7 +11,7 @@ import "./Userr.css";
 import { faDollarSign } from "@fortawesome/free-solid-svg-icons";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 import { faCircleQuestion } from "@fortawesome/free-solid-svg-icons";
-import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons";
 import { faLock } from "@fortawesome/free-solid-svg-icons";
 import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 
@@ -80,20 +80,14 @@ const Userr = () => {
           </ul>
         </div>
         {/* </div> */}
-
         <div className="col-3">
-          <h4>Danh sách hợp đồng</h4>
-          <div className="col-1">
-            <div class="p-container">
-              <p className="mana1">Hợp đồng ủy quyền </p>
-              <p className="mana1">Hợp đồng ủy quyền </p>
-            </div>
-          </div>
+          <h4>Thông tin cơ bản</h4>
+          <img className="avar" src={logoAvar} alt="Avar" />
+          <h5>Tuấn</h5>
         </div>
-
         <div className="col-6">
-          <div className="row">sdaasdas</div>{" "}
-          {/* <form>
+          {" "}
+          <form>
             <div className="em-add double">
               <div className="em-add db1 ">
                 <label for="exampleInputEmail1" className="form-label">
@@ -157,15 +151,33 @@ const Userr = () => {
                 lưu
               </button>
             </div>
-          </form> */}
+          </form>
         </div>
 
-        <div className="col-2 mag">
+        <div className="col-2 action">
           <ul class="navbar-nav flex-column ">
             <li class="nav-item">
-              <FontAwesomeIcon icon={faPlus} style={{ color: "#ff6600" }} />
+              <FontAwesomeIcon
+                icon={faArrowRightFromBracket}
+                style={{ color: "#ff8614" }}
+              />
               <a class="nav-link" href="/#">
-                Thêm Hợp đồng
+                Sửa thông tin
+              </a>
+            </li>
+            <li class="nav-item">
+              <FontAwesomeIcon icon={faLock} style={{ color: "#ff8614" }} />
+              <a class="nav-link" href="/#">
+                Đổi mật khẩu
+              </a>
+            </li>
+            <li class="nav-item">
+              <FontAwesomeIcon
+                icon={faPenToSquare}
+                style={{ color: "#ff8614" }}
+              />
+              <a class="nav-link" href="/#">
+                Đăng suất
               </a>
             </li>
           </ul>
