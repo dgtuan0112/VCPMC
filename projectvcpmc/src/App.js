@@ -5,24 +5,30 @@ import FogotPass from "./component/FogotPass";
 import SelectExample from "./component/Login";
 import SuccessPass from "./component/SuccessPass";
 import Userr from "./component/Userr";
-
+import Record from "./component/Record";
+import Manage from "./component/Manage";
+import Playlist from "./component/Playlist";
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Userr />} />
-        <Route path="/fogotpass" element={<FogotPass />} />
 
-        <Route path="/success-pass" element={<SuccessPass />} />
+        <Route path="/record" element={<Record />} />
+        <Route path="/playlist" element={<Playlist />} />
+        <Route path="/manage" element={<Manage />} />
+        {/* <Route path="/fogotpass" element={<FogotPass />} />
+
+        <Routes path="/success-pass" element={<SuccessPass />} /> */}
       </Routes>
     </Router>
   );
   //   {/* <Router>
   // <Routes>
   //   <Route path="/" element={<Userr />} />
-  //   <Route path="/fogotpass" element={<FogotPass />} />
-
-  //   <Route path="/success-pass" element={<SuccessPass />} />
+  //   <Route path="/record" element={<Record />} />
+  //   <Route path="/manage" element={<Manage />} />
+  //   <Route path="/playlist" element={<Playlist />} />
   // </Routes>
   // </Router> */}
 };

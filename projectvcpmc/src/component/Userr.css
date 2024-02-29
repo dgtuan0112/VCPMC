@@ -56,15 +56,15 @@ svg.svg-inline--fa.fa-circle-question {
 }
 /* menumini */
 svg.svg-inline--fa.fa-arrow-right-from-bracket {
-  margin-left: 21px;
+  margin-left: 15px;
 }
 
 svg.svg-inline--fa.fa-lock {
-  margin-left: 21px;
+  margin-left: 15px;
 }
 
 svg.svg-inline--fa.fa-pen-to-square {
-  margin-left: 21px;
+  margin-left: 15px;
 }
 
 a.nav-link {
@@ -121,6 +121,19 @@ button.btn.btn-primary.\31 {
 }
 
 /* manage */
+.contract_page {
+  background-color: #141424;
+  color: #c8c8db;
+}
+
+img.logocontract {
+  margin-left: 31px;
+  width: 70px;
+  border-radius: 50%;
+  margin-bottom: 65px;
+  margin-top: 33px;
+}
+
 p.mana1 {
   background-color: #ff7506;
   text-align: center;
@@ -146,4 +159,121 @@ svg.svg-inline--fa.fa-plus {
   width: 22px;
   height: 22px;
   border-radius: 20px;
+}
+
+.select_contract {
+  height: 35px;
+  width: 130px;
+  color: #c8c8db;
+  font-size: 13px;
+  margin-left: auto;
+  background-color: #141424;
+
+  margin-top: -125px;
+}
+
+p.paging1 {
+  margin-left: 123px;
+  font-size: 10px;
+  margin-bottom: 2px;
+}
+.paging2 {
+  margin-left: 123px;
+  font-size: 25px;
+}
+
+p.tab1 {
+  background-color: #ff7506;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 10px;
+  width: 115px;
+  height: 20px;
+}
+
+p.tab2 {
+  border: 1px solid #ff7506;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 10px;
+  width: 150px;
+  height: 20px;
+}
+
+.menu-left {
+  width: 100px;
+  background-color: rgba(2, 2, 32, 1);
+}
+
+.row.tab {
+  margin-left: 109px;
+}
+
+.row.sele {
+  margin-left: 118px;
+}
+
+p.labelsele1 {
+  font-size: 10px;
+  margin-top: 4px;
+  font-weight: bold;
+}
+
+select#seleone {
+  margin-left: -100px;
+  width: 113px;
+  height: 28px;
+  text-align: center;
+  font-size: 10px;
+  border: 1px solid #ff7506;
+  /* color: #ff7506; */
+}
+
+p.labelsele2 {
+  font-size: 10px;
+  margin-top: 4px;
+  font-weight: bold;
+  margin-left: -23px;
+}
+
+select#seletwo {
+  width: 113px;
+  height: 28px;
+  text-align: center;
+  font-size: 10px;
+  border: 1px solid #ff7506;
+  /* color: #ff7506; */
+  margin-left: -82px;
+}
+
+.col-9.frame {
+  margin-left: 124px;
+
+  margin-top: -360px;
+  background-color: rgba(47, 47, 65, 0.7);
+  border-radius: 14px;
+  height: 490px;
+}
+
+.col-2.contract {
+  background-color: #2f2f41;
+  width: 68px;
+  height: 78px;
+  margin-left: 102px;
+  margin-top: -410px;
+  border-radius: 10px;
+}
+
+svg.svg-inline--fa.fa-magnifying-glass {
+  margin-left: 152px;
+}
+
+.Logo {
+  background-color: #141424;
+}
+
+a {
+  color: rgb(255 117 6);
+  text-decoration: underline;
+  text-align: center;
 }
