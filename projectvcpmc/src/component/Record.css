@@ -121,7 +121,7 @@ button.btn.btn-primary.\31 {
 }
 
 /* manage */
-.contract_page {
+.record_page {
   background-color: #141424;
   color: #c8c8db;
 }
@@ -161,7 +161,7 @@ svg.svg-inline--fa.fa-plus {
   border-radius: 20px;
 }
 
-.select_contract {
+.select_record {
   height: 35px;
   width: 130px;
   color: #c8c8db;
@@ -209,17 +209,17 @@ p.tab2 {
   margin-left: 109px;
 }
 
-.row.selecor {
+.row.sele {
   margin-left: 118px;
 }
 
-p.labelselecor1 {
+p.labelsele1 {
   font-size: 10px;
   margin-top: 4px;
   font-weight: bold;
 }
 
-select#selecorone {
+select#seleone {
   margin-left: -100px;
   width: 113px;
   height: 28px;
@@ -229,14 +229,14 @@ select#selecorone {
   /* color: #ff7506; */
 }
 
-p.labelselecor2 {
+p.labelsele2 {
   font-size: 10px;
   margin-top: 4px;
   font-weight: bold;
   margin-left: -23px;
 }
 
-select#selecortwo {
+select#seletwo {
   width: 113px;
   height: 28px;
   text-align: center;
