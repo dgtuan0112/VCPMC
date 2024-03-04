@@ -182,57 +182,28 @@ const Record = () => {
               <p>STT</p>
             </div>
             <div className="col-1">
-              <p>Số hợp đồng</p>
+              <p>Tên bản ghi</p>
             </div>
             <div className="col-1">
-              <p>Tên hợp đồng</p>
+              <p>Mã isrc</p>
             </div>
             <div className="col-1">
-              <p>Người ủy quyền</p>
+              <p>Thời lượng</p>
             </div>
             <div className="col-1">
-              <p>Quyền sở hữu</p>
+              <p>Ca sĩ</p>
             </div>
             <div className="col-2">
-              <p>Hiệu lực hợp đồng</p>
+              <p>Tác giả</p>
             </div>
             <div className="col-1">
-              <p>Ngày tạo</p>
+              <p>Thể loại</p>
             </div>
             <div className="col-1">
-              <p>Ngày tạo</p>
+              <p>Định dạng</p>
             </div>
             <div className="col-1">
-              <p>Ngày tạo</p>
-            </div>
-          </div>
-          <div className="row contentframe">
-            <div className="col-1">
-              <p>STT</p>
-            </div>
-            <div className="col-1">
-              <p>Số hợp đồng</p>
-            </div>
-            <div className="col-1">
-              <p>Tên hợp đồng</p>
-            </div>
-            <div className="col-1">
-              <p>Người ủy quyền</p>
-            </div>
-            <div className="col-1">
-              <p>Quyền sở hữu</p>
-            </div>
-            <div className="col-2">
-              <p>Hiệu lực hợp đồng</p>
-            </div>
-            <div className="col-1">
-              <p>Ngày tạo</p>
-            </div>
-            <div className="col-1">
-              <p>Ngày tạo</p>
-            </div>
-            <div className="col-1">
-              <p>Ngày tạo</p>
+              <p>Thời hạn sử dụng</p>
             </div>
           </div>
           <div className="row contentframe">
@@ -240,57 +211,431 @@ const Record = () => {
               <p>1</p>
             </div>
             <div className="col-1">
-              <p>Số hợp đồng</p>
+              <p>Mất em</p>
             </div>
             <div className="col-1">
-              <p>Tên hợp đồng</p>
+              <p>KRA0105463</p>
             </div>
             <div className="col-1">
-              <p>Người ủy quyền</p>
+              <p>04:27</p>
             </div>
             <div className="col-1">
-              <p>Quyền sở hữu</p>
+              <p>Phan Mạnh Quỳnh</p>
             </div>
             <div className="col-2">
-              <p>Hiệu lực hợp đồng</p>
+              <p>Phan Mạnh Quỳnh</p>
             </div>
             <div className="col-1">
-              <p>Ngày tạo</p>
+              <p>Ballad</p>
             </div>
             <div className="col-1">
-              <p>Ngày tạo</p>
+              <p>Audio</p>
             </div>
             <div className="col-1">
-              <p>Ngày tạo</p>
+              <p>Còn thời gian</p>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  cập nhật
+                </a>
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  nghe
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="row contentframe">
+            <div className="col-1">
+              <p>2</p>
+            </div>
+            <div className="col-1">
+              <p>Mất em</p>
+            </div>
+            <div className="col-1">
+              <p>KRA0105463</p>
+            </div>
+            <div className="col-1">
+              <p>04:27</p>
+            </div>
+            <div className="col-1">
+              <p>Phan Mạnh Quỳnh</p>
+            </div>
+            <div className="col-2">
+              <p>Phan Mạnh Quỳnh</p>
+            </div>
+            <div className="col-1">
+              <p>Ballad</p>
+            </div>
+            <div className="col-1">
+              <p>Audio</p>
+            </div>
+            <div className="col-1">
+              <p>Còn thời gian</p>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  cập nhật
+                </a>
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  nghe
+                </a>
+              </div>
             </div>
           </div>
           <div className="row contentframe">
             <div className="col-1">
-              <p>STT</p>
+              <p>3</p>
             </div>
             <div className="col-1">
-              <p>Số hợp đồng</p>
+              <p>Mất em</p>
             </div>
             <div className="col-1">
-              <p>Tên hợp đồng</p>
+              <p>KRA0105463</p>
             </div>
             <div className="col-1">
-              <p>Người ủy quyền</p>
+              <p>04:27</p>
             </div>
             <div className="col-1">
-              <p>Quyền sở hữu</p>
+              <p>Phan Mạnh Quỳnh</p>
             </div>
             <div className="col-2">
-              <p>Hiệu lực hợp đồng</p>
+              <p>Phan Mạnh Quỳnh</p>
             </div>
             <div className="col-1">
-              <p>Ngày tạo</p>
+              <p>Ballad</p>
             </div>
             <div className="col-1">
-              <p>Ngày tạo</p>
+              <p>Audio</p>
             </div>
             <div className="col-1">
-              <p>Ngày tạo</p>
+              <p>Còn thời gian</p>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  cập nhật
+                </a>
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  nghe
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="row contentframe">
+            <div className="col-1">
+              <p>4</p>
+            </div>
+            <div className="col-1">
+              <p>Mất em</p>
+            </div>
+            <div className="col-1">
+              <p>KRA0105463</p>
+            </div>
+            <div className="col-1">
+              <p>04:27</p>
+            </div>
+            <div className="col-1">
+              <p>Phan Mạnh Quỳnh</p>
+            </div>
+            <div className="col-2">
+              <p>Phan Mạnh Quỳnh</p>
+            </div>
+            <div className="col-1">
+              <p>Ballad</p>
+            </div>
+            <div className="col-1">
+              <p>Audio</p>
+            </div>
+            <div className="col-1">
+              <p>Còn thời gian</p>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  cập nhật
+                </a>
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  nghe
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="row contentframe">
+            <div className="col-1">
+              <p>5</p>
+            </div>
+            <div className="col-1">
+              <p>Mất em</p>
+            </div>
+            <div className="col-1">
+              <p>KRA0105463</p>
+            </div>
+            <div className="col-1">
+              <p>04:27</p>
+            </div>
+            <div className="col-1">
+              <p>Phan Mạnh Quỳnh</p>
+            </div>
+            <div className="col-2">
+              <p>Phan Mạnh Quỳnh</p>
+            </div>
+            <div className="col-1">
+              <p>Ballad</p>
+            </div>
+            <div className="col-1">
+              <p>Audio</p>
+            </div>
+            <div className="col-1">
+              <p>Còn thời gian</p>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  cập nhật
+                </a>
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  nghe
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="row contentframe">
+            <div className="col-1">
+              <p>5</p>
+            </div>
+            <div className="col-1">
+              <p>Mất em</p>
+            </div>
+            <div className="col-1">
+              <p>KRA0105463</p>
+            </div>
+            <div className="col-1">
+              <p>04:27</p>
+            </div>
+            <div className="col-1">
+              <p>Phan Mạnh Quỳnh</p>
+            </div>
+            <div className="col-2">
+              <p>Phan Mạnh Quỳnh</p>
+            </div>
+            <div className="col-1">
+              <p>Ballad</p>
+            </div>
+            <div className="col-1">
+              <p>Audio</p>
+            </div>
+            <div className="col-1">
+              <p>Còn thời gian</p>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  cập nhật
+                </a>
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  nghe
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="row contentframe">
+            <div className="col-1">
+              <p>6</p>
+            </div>
+            <div className="col-1">
+              <p>Mất em</p>
+            </div>
+            <div className="col-1">
+              <p>KRA0105463</p>
+            </div>
+            <div className="col-1">
+              <p>04:27</p>
+            </div>
+            <div className="col-1">
+              <p>Phan Mạnh Quỳnh</p>
+            </div>
+            <div className="col-2">
+              <p>Phan Mạnh Quỳnh</p>
+            </div>
+            <div className="col-1">
+              <p>Ballad</p>
+            </div>
+            <div className="col-1">
+              <p>Audio</p>
+            </div>
+            <div className="col-1">
+              <p>Còn thời gian</p>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  cập nhật
+                </a>
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  nghe
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="row contentframe">
+            <div className="col-1">
+              <p>7</p>
+            </div>
+            <div className="col-1">
+              <p>Mất em</p>
+            </div>
+            <div className="col-1">
+              <p>KRA0105463</p>
+            </div>
+            <div className="col-1">
+              <p>04:27</p>
+            </div>
+            <div className="col-1">
+              <p>Phan Mạnh Quỳnh</p>
+            </div>
+            <div className="col-2">
+              <p>Phan Mạnh Quỳnh</p>
+            </div>
+            <div className="col-1">
+              <p>Ballad</p>
+            </div>
+            <div className="col-1">
+              <p>Audio</p>
+            </div>
+            <div className="col-1">
+              <p>Còn thời gian</p>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  cập nhật
+                </a>
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  nghe
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="row contentframe">
+            <div className="col-1">
+              <p>8</p>
+            </div>
+            <div className="col-1">
+              <p>Mất em</p>
+            </div>
+            <div className="col-1">
+              <p>KRA0105463</p>
+            </div>
+            <div className="col-1">
+              <p>04:27</p>
+            </div>
+            <div className="col-1">
+              <p>Phan Mạnh Quỳnh</p>
+            </div>
+            <div className="col-2">
+              <p>Phan Mạnh Quỳnh</p>
+            </div>
+            <div className="col-1">
+              <p>Ballad</p>
+            </div>
+            <div className="col-1">
+              <p>Audio</p>
+            </div>
+            <div className="col-1">
+              <p>Còn thời gian</p>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  cập nhật
+                </a>
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  nghe
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className=" footframecor">
+              <div className="row">
+                {" "}
+                <div className="col-1 footcor">
+                  <p>Hiển thị </p>
+                </div>
+                <div className="col-1 footip">
+                  {" "}
+                  <input
+                    type="text"
+                    className="form-control footercor"
+                    placeholder="Recipient's username"
+                    aria-label="Recipient's username"
+                    aria-describedby="basic-addon2"
+                  />
+                </div>
+                <div className="col-8 footcor">
+                  <p>hàng trong mỗi trang </p>
+                </div>
+                <div className="col-2 footcor">
+                  <p>1 2 3 _100 </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
