@@ -1,0 +1,122 @@
+h5.card-title {
+  font-size: 10px;
+  margin-left: 3px;
+  color: #c8c8db;
+}
+
+p.singer {
+  margin-left: -26px;
+  font-weight: normal;
+}
+
+p.card-text {
+  font-size: 6px;
+}
+
+p.singer {
+  margin-left: -49px;
+  font-weight: normal;
+  margin-bottom: 2px;
+  margin-top: -4px;
+  color: #c8c8db;
+}
+
+p.composer {
+  margin-left: -40px;
+  font-weight: normal;
+  margin-bottom: 2px;
+  margin-top: -4px;
+  color: #c8c8db;
+}
+
+p.contest {
+  margin-left: -28px;
+  font-weight: normal;
+  margin-bottom: 2px;
+  margin-top: -4px;
+  color: #c8c8db;
+}
+
+.card {
+  background-color: rgb(108 108 136 / 70%);
+  border-radius: 10px;
+  height: 213px;
+}
+.card-body {
+  margin-top: -16px;
+}
+
+p.card-text {
+  color: #c8c8db;
+}
+
+p.ttpop {
+  color: #c8c8db;
+  font-size: 4px;
+  margin-bottom: -1px;
+  margin-left: 10px;
+}
+
+p.ttau {
+  color: #c8c8db;
+  font-size: 4px;
+  margin-bottom: -1px;
+  margin-left: 10px;
+}
+
+p.tttime {
+  color: #c8c8db;
+  font-size: 4px;
+  margin-bottom: -1px;
+  margin-left: 10px;
+}
+
+.tloai {
+  border: 1px solid #c8c8db;
+  height: 24px;
+  /* margin-left: -16px; */
+  width: 39px;
+  height: 22px;
+  border-radius: 3px;
+}
+
+.ddang {
+  border: 1px solid #c8c8db;
+  height: 24px;
+  margin-left: -23px;
+  width: 39px;
+  height: 22px;
+  border-radius: 3px;
+}
+
+.tluong {
+  border: 1px solid #c8c8db;
+  height: 24px;
+  margin-left: -47px;
+  width: 39px;
+  height: 22px;
+  border-radius: 3px;
+}
+
+p.pop {
+  font-size: 8px;
+  margin-left: 10px;
+  color: #c8c8db;
+}
+
+p.au {
+  font-size: 8px;
+  margin-left: 10px;
+  color: #c8c8db;
+}
+
+p.timee {
+  font-size: 8px;
+  margin-left: 10px;
+  color: #c8c8db;
+}
+
+img.imagerecord {
+  height: 118px;
+  border-radius: 10px;
+}

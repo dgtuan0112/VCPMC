@@ -1,4 +1,5 @@
 import exampleImage from "../images/n.png";
+import { NavLink } from "react-router-dom";
 import logoImage from "../images/logo.jpg";
 import logoAvar from "../images/avatar.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,6 +16,8 @@ import { faCircleQuestion } from "@fortawesome/free-solid-svg-icons";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { faLock } from "@fortawesome/free-solid-svg-icons";
 import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
+import { faTableCellsLarge } from "@fortawesome/free-solid-svg-icons";
+import { faListUl } from "@fortawesome/free-solid-svg-icons";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
@@ -49,9 +52,9 @@ const Record = () => {
             <FontAwesomeIcon icon={faMagnifyingGlass} />
           </div>
         </div>
-        <div className="col-11">
+        <div className="col">
           <div className="row selecor">
-            <div className="col-2">
+            <div className="col-1">
               <p className="labelselecor1">Thể loại</p>
             </div>
             <div className="col-1">
@@ -68,7 +71,7 @@ const Record = () => {
                 </select>
               </div>
             </div>
-            <div className="col-2">
+            <div className="col-1">
               <p className="labelsele2">Định dạng</p>
             </div>
 
@@ -93,7 +96,7 @@ const Record = () => {
             <div className="col-1">
               <div className="selecor2">
                 <select
-                  id="selecortwo"
+                  id="selecortwotime"
                   className="form-select"
                   aria-label="Default select example"
                 >
@@ -105,13 +108,13 @@ const Record = () => {
               </div>
             </div>
             <div className="col-2">
-              <p className="labelselecor2">Trạng thái</p>
+              <p className="labelselecor2sta">Trạng thái</p>
             </div>
 
             <div className="col-1">
               <div className="selecor2">
                 <select
-                  id="selecortwo"
+                  id="selecortwostatus"
                   className="form-select"
                   aria-label="Default select example"
                 >
@@ -121,6 +124,15 @@ const Record = () => {
                   <option value="3">Three</option>
                 </select>
               </div>
+            </div>
+            <div className="col-1">
+              <FontAwesomeIcon icon={faListUl} />
+            </div>
+            <div className="col-1">
+              <NavLink to="/recordcard">
+                {" "}
+                <FontAwesomeIcon icon={faTableCellsLarge} />
+              </NavLink>
             </div>
           </div>
         </div>
