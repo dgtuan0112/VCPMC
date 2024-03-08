@@ -1,6 +1,6 @@
 h5.card-title {
   font-size: 10px;
-  margin-left: 3px;
+  margin-left: 0px;
   color: #c8c8db;
 }
 
@@ -38,7 +38,7 @@ p.contest {
 }
 
 .card {
-  background-color: rgb(108 108 136 / 70%);
+  background-color: rgb(57 57 85 / 70%);
   border-radius: 10px;
   height: 213px;
 }
@@ -53,22 +53,28 @@ p.card-text {
 p.ttpop {
   color: #c8c8db;
   font-size: 4px;
-  margin-bottom: -1px;
+  margin-bottom: -3px;
   margin-left: 10px;
+  margin-top: 2px;
+  font-weight: normal;
 }
 
 p.ttau {
   color: #c8c8db;
   font-size: 4px;
-  margin-bottom: -1px;
+  margin-bottom: -3px;
   margin-left: 10px;
+  margin-top: 2px;
+  font-weight: normal;
 }
 
 p.tttime {
   color: #c8c8db;
   font-size: 4px;
-  margin-bottom: -1px;
+  margin-bottom: -3px;
   margin-left: 10px;
+  margin-top: 2px;
+  font-weight: normal;
 }
 
 .tloai {
@@ -83,7 +89,7 @@ p.tttime {
 .ddang {
   border: 1px solid #c8c8db;
   height: 24px;
-  margin-left: -23px;
+  margin-left: -17px;
   width: 39px;
   height: 22px;
   border-radius: 3px;
@@ -92,7 +98,7 @@ p.tttime {
 .tluong {
   border: 1px solid #c8c8db;
   height: 24px;
-  margin-left: -47px;
+  margin-left: -28px;
   width: 39px;
   height: 22px;
   border-radius: 3px;
@@ -119,4 +125,62 @@ p.timee {
 img.imagerecord {
   height: 118px;
   border-radius: 10px;
+}
+
+.row.twoframe {
+  color: #da9c69;
+  font-size: 9px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.imagerecord-large {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  width: 80%;
+  height: auto;
+}
+
+.fullscreen-image-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.fullscreen-image-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fullscreen-image-wrapper {
+  position: relative;
+}
+
+.fullscreen-image {
+  height: 247px;
+  width: 452px;
+  display: block;
+  margin: 0 auto;
+  border: 11px solid #c8c8db;
+  border-radius: 10px;
+}
+
+svg#pencor {
+  width: -8px;
+  height: 15px;
+  margin-left: -7px;
+  margin-top: 5px;
 }

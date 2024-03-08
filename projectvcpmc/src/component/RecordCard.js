@@ -1,6 +1,7 @@
 import exampleImage from "../images/n.png";
 import logoImage from "../images/logo.jpg";
 import logoAvar from "../images/avatar.jpg";
+import recordImage from "../images/nghebanghi.jpg";
 import imageRecord from "../images/13c.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSliders } from "@fortawesome/free-solid-svg-icons";
@@ -21,8 +22,16 @@ import { faListUl } from "@fortawesome/free-solid-svg-icons";
 import "./RecordCard.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { NavLink } from "react-router-dom";
+import React, { useState } from "react";
 
 const RecordCard = () => {
+  const [showImage, setShowImage] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const handleImageClick = (imageSrc) => {
+    setShowImage(true);
+    setSelectedImage(imageSrc);
+  };
   return (
     <div className="record_page">
       <div className="Logo">
@@ -247,6 +256,83 @@ const RecordCard = () => {
                         <p className="timee">03:00</p>
                       </div>
                     </div>
+                    <div className="col-1">
+                      <FontAwesomeIcon
+                        id="pencor"
+                        icon={faPenToSquare}
+                        style={{ color: "#ff9d2e" }}
+                      />{" "}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div
+                className="card"
+                onClick={() => handleImageClick(imageRecord)}
+              >
+                <img className="imagerecord" src={imageRecord} alt="Logo" />
+                <div class="card-body">
+                  <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
+                  <div className="row cardd">
+                    <div className="col-4 cardd">
+                      {" "}
+                      <p className="card-text">Ca sĩ:</p>
+                    </div>{" "}
+                    <div className="col cardd">
+                      {" "}
+                      <p className=" singer">Bella Poarch</p>
+                    </div>
+                  </div>
+                  <div className="row cardd">
+                    <div className="col-4 cardd">
+                      {" "}
+                      <p className="card-text st">Sáng tác:</p>
+                    </div>{" "}
+                    <div className="col cardd">
+                      {" "}
+                      <p className=" composer">Leilani Zulauf</p>
+                    </div>
+                  </div>
+                  <div className="row cardd">
+                    <div className="col-4 cardd">
+                      {" "}
+                      <p className="card-text hd">Số hợp đồng:</p>
+                    </div>{" "}
+                    <div className="col cardd">
+                      {" "}
+                      <p className=" contest">HD395738503</p>
+                    </div>
+                  </div>
+
+                  <div className="row">
+                    <div className="col ">
+                      <div className="tloai">
+                        {" "}
+                        <p className="ttpop">Thể loại</p>
+                        <p className="pop">Pop</p>
+                      </div>
+                    </div>
+                    <div className="col ">
+                      <div className="ddang">
+                        <p className="ttau">Định dạng</p>
+                        <p className="au">Audio</p>
+                      </div>
+                    </div>
+                    <div className="col ">
+                      <div className="tluong">
+                        <p className="tttime">Thời lượng</p>
+                        <p className="timee">03:00</p>
+                      </div>
+                    </div>
+                    <div className="col-1">
+                      <FontAwesomeIcon
+                        id="pencor"
+                        icon={faPenToSquare}
+                        style={{ color: "#ff9d2e" }}
+                      />{" "}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -307,65 +393,12 @@ const RecordCard = () => {
                         <p className="timee">03:00</p>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="card">
-                <img className="imagerecord" src={imageRecord} alt="Logo" />
-                <div class="card-body">
-                  <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
-                  <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text">Ca sĩ:</p>
-                    </div>{" "}
-                    <div className="col cardd">
-                      {" "}
-                      <p className=" singer">Bella Poarch</p>
-                    </div>
-                  </div>
-                  <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text st">Sáng tác:</p>
-                    </div>{" "}
-                    <div className="col cardd">
-                      {" "}
-                      <p className=" composer">Leilani Zulauf</p>
-                    </div>
-                  </div>
-                  <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text hd">Số hợp đồng:</p>
-                    </div>{" "}
-                    <div className="col cardd">
-                      {" "}
-                      <p className=" contest">HD395738503</p>
-                    </div>
-                  </div>
-
-                  <div className="row">
-                    <div className="col ">
-                      <div className="tloai">
-                        {" "}
-                        <p className="ttpop">Thể loại</p>
-                        <p className="pop">Pop</p>
-                      </div>
-                    </div>
-                    <div className="col ">
-                      <div className="ddang">
-                        <p className="ttau">Định dạng</p>
-                        <p className="au">Audio</p>
-                      </div>
-                    </div>
-                    <div className="col ">
-                      <div className="tluong">
-                        <p className="tttime">Thời lượng</p>
-                        <p className="timee">03:00</p>
-                      </div>
+                    <div className="col-1">
+                      <FontAwesomeIcon
+                        id="pencor"
+                        icon={faPenToSquare}
+                        style={{ color: "#ff9d2e" }}
+                      />{" "}
                     </div>
                   </div>
                 </div>
@@ -426,13 +459,20 @@ const RecordCard = () => {
                         <p className="tttime">Thời lượng</p>
                         <p className="timee">03:00</p>
                       </div>
+                    </div>
+                    <div className="col-1">
+                      <FontAwesomeIcon
+                        id="pencor"
+                        icon={faPenToSquare}
+                        style={{ color: "#ff9d2e" }}
+                      />{" "}
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="row firtframe">
+          <div className="row twoframe">
             <div className="col">
               <div className="card">
                 <img className="imagerecord" src={imageRecord} alt="Logo" />
@@ -488,6 +528,13 @@ const RecordCard = () => {
                         <p className="tttime">Thời lượng</p>
                         <p className="timee">03:00</p>
                       </div>
+                    </div>
+                    <div className="col-1">
+                      <FontAwesomeIcon
+                        id="pencor"
+                        icon={faPenToSquare}
+                        style={{ color: "#ff9d2e" }}
+                      />{" "}
                     </div>
                   </div>
                 </div>
@@ -549,65 +596,12 @@ const RecordCard = () => {
                         <p className="timee">03:00</p>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="card">
-                <img className="imagerecord" src={imageRecord} alt="Logo" />
-                <div class="card-body">
-                  <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
-                  <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text">Ca sĩ:</p>
-                    </div>{" "}
-                    <div className="col cardd">
-                      {" "}
-                      <p className=" singer">Bella Poarch</p>
-                    </div>
-                  </div>
-                  <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text st">Sáng tác:</p>
-                    </div>{" "}
-                    <div className="col cardd">
-                      {" "}
-                      <p className=" composer">Leilani Zulauf</p>
-                    </div>
-                  </div>
-                  <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text hd">Số hợp đồng:</p>
-                    </div>{" "}
-                    <div className="col cardd">
-                      {" "}
-                      <p className=" contest">HD395738503</p>
-                    </div>
-                  </div>
-
-                  <div className="row">
-                    <div className="col ">
-                      <div className="tloai">
-                        {" "}
-                        <p className="ttpop">Thể loại</p>
-                        <p className="pop">Pop</p>
-                      </div>
-                    </div>
-                    <div className="col ">
-                      <div className="ddang">
-                        <p className="ttau">Định dạng</p>
-                        <p className="au">Audio</p>
-                      </div>
-                    </div>
-                    <div className="col ">
-                      <div className="tluong">
-                        <p className="tttime">Thời lượng</p>
-                        <p className="timee">03:00</p>
-                      </div>
+                    <div className="col-1">
+                      <FontAwesomeIcon
+                        id="pencor"
+                        icon={faPenToSquare}
+                        style={{ color: "#ff9d2e" }}
+                      />{" "}
                     </div>
                   </div>
                 </div>
@@ -668,6 +662,80 @@ const RecordCard = () => {
                         <p className="tttime">Thời lượng</p>
                         <p className="timee">03:00</p>
                       </div>
+                    </div>
+                    <div className="col-1">
+                      <FontAwesomeIcon
+                        id="pencor"
+                        icon={faPenToSquare}
+                        style={{ color: "#ff9d2e" }}
+                      />{" "}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card">
+                <img className="imagerecord" src={imageRecord} alt="Logo" />
+                <div class="card-body">
+                  <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
+                  <div className="row cardd">
+                    <div className="col-4 cardd">
+                      {" "}
+                      <p className="card-text">Ca sĩ:</p>
+                    </div>{" "}
+                    <div className="col cardd">
+                      {" "}
+                      <p className=" singer">Bella Poarch</p>
+                    </div>
+                  </div>
+                  <div className="row cardd">
+                    <div className="col-4 cardd">
+                      {" "}
+                      <p className="card-text st">Sáng tác:</p>
+                    </div>{" "}
+                    <div className="col cardd">
+                      {" "}
+                      <p className=" composer">Leilani Zulauf</p>
+                    </div>
+                  </div>
+                  <div className="row cardd">
+                    <div className="col-4 cardd">
+                      {" "}
+                      <p className="card-text hd">Số hợp đồng:</p>
+                    </div>{" "}
+                    <div className="col cardd">
+                      {" "}
+                      <p className=" contest">HD395738503</p>
+                    </div>
+                  </div>
+
+                  <div className="row">
+                    <div className="col ">
+                      <div className="tloai">
+                        {" "}
+                        <p className="ttpop">Thể loại</p>
+                        <p className="pop">Pop</p>
+                      </div>
+                    </div>
+                    <div className="col ">
+                      <div className="ddang">
+                        <p className="ttau">Định dạng</p>
+                        <p className="au">Audio</p>
+                      </div>
+                    </div>
+                    <div className="col ">
+                      <div className="tluong">
+                        <p className="tttime">Thời lượng</p>
+                        <p className="timee">03:00</p>
+                      </div>
+                    </div>
+                    <div className="col-1">
+                      <FontAwesomeIcon
+                        id="pencor"
+                        icon={faPenToSquare}
+                        style={{ color: "#ff9d2e" }}
+                      />{" "}
                     </div>
                   </div>
                 </div>
@@ -712,6 +780,25 @@ const RecordCard = () => {
             </li>
           </ul>
         </div>
+        {showImage && selectedImage && (
+          <div className="fullscreen-image-container">
+            <div
+              className="fullscreen-image-overlay"
+              onClick={() => setShowImage(false)}
+            ></div>
+            <div className="fullscreen-image-wrapper">
+              <img
+                className="fullscreen-image"
+                src={selectedImage}
+                alt="Fullscreen"
+              />
+            </div>
+          </div>
+        )}
+
+        {showImage && (
+          <div className="overlay" onClick={() => setShowImage(false)}></div>
+        )}
       </div>
     </div>
   );
