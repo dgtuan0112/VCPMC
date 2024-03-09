@@ -19,7 +19,7 @@ import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-const Playlist = () => {
+const Calendarr = () => {
   return (
     <div className="contract_page">
       <div className="Logo">
@@ -34,20 +34,20 @@ const Playlist = () => {
       </div>
 
       <div className="paging">
-        <h4 className="paging2">Playlist</h4>
+        <h4 className="paging2">Danh sách lịch phát</h4>
 
         <div className="row sele">
           <div className="col-2">
-            <input
+            {/* <input
               type="text"
               class="form-control"
               placeholder="Recipient's username"
               aria-label="Recipient's username"
               aria-describedby="basic-addon2"
-            />
+            /> */}
           </div>
           <div className="col-2">
-            <FontAwesomeIcon icon={faMagnifyingGlass} />
+            {/* <FontAwesomeIcon icon={faMagnifyingGlass} /> */}
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@ const Playlist = () => {
             </li>
             <li class="nav-item">
               <FontAwesomeIcon icon={faCalendarDays} />
-              <a class="nav-link" href="/#">
+              <a class="nav-link" href="/calendar">
                 Lập lịch phát
               </a>
             </li>
@@ -108,22 +108,22 @@ const Playlist = () => {
               <p>STT</p>
             </div>
             <div className="col-2">
-              <p>Tiêu đề</p>
+              <p>Tên lịch</p>
             </div>
             <div className="col-1">
-              <p>Số bản ghi</p>
+              <p></p>
             </div>
             <div className="col-1">
-              <p>Thời lượng</p>
+              <p></p>
             </div>
             <div className="col-3">
-              <p>Chủ đề</p>
+              <p>Thời gian phát</p>
             </div>
             <div className="col-2 firtdate">
-              <p className="firtdate">Ngày tạo</p>
+              <p className="firtdate"></p>
             </div>
             <div className="col-2">
-              <p>Người tạo</p>
+              <p></p>
             </div>
           </div>
           <div className="row contentframe">
@@ -131,573 +131,477 @@ const Playlist = () => {
               <p>1</p>
             </div>
             <div className="col-2">
-              <p>Top ca khúc 2023</p>
+              <p>Lịch phát số 1</p>
             </div>
             <div className="col-1">
-              <p>20</p>
+              <p></p>
             </div>
             <div className="col-1">
-              <p>01:04:27</p>
+              <p></p>
             </div>
             <div className="col-6">
               <div className="row">
-                <div className="col-1 cate1">
-                  <p>Pop</p>
-                </div>
-                <div className="col-1 cate2">Chill </div>
-                <div className="col-1 cate3">
-                  <p className="dingg">Dingga</p>
-                </div>
-                <div className="col-1 cate4">
-                  <p className="song">Songs</p>
-                </div>
-                <div className="col-1 cate5">
-                  <p className="lofi">Lofi</p>
-                </div>
-                <div className="col-1 cate6">
-                  <p>...</p>
+                <div className="col-4 cate1">
+                  <p>22/5/2021 -30/5/2021</p>
                 </div>
               </div>
             </div>
             <div className="col-1 date">
-              <p>8/4/2024</p>
+              <p></p>
             </div>
             <div className="col-1 er">
-              <p>Cindy Cường</p>
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xem Chi tiết
+                </a>
+              </div>
             </div>
             <div className="col-1">
               <div className="detail">
                 {" "}
                 <a class="nav-link" href="/#">
-                  Chi tiết
+                  Xóa
                 </a>
               </div>
             </div>
           </div>
           <div className="row contentframe">
             <div className="col-1">
-              <p>1</p>
+              <p>2</p>
             </div>
             <div className="col-2">
-              <p>Top ca khúc 2023</p>
+              <p>Lịch phát số 2</p>
             </div>
             <div className="col-1">
-              <p>20</p>
+              <p></p>
             </div>
             <div className="col-1">
-              <p>01:04:27</p>
+              <p></p>
             </div>
             <div className="col-6">
               <div className="row">
-                <div className="col-1 cate1">
-                  <p>Pop</p>
-                </div>
-                <div className="col-1 cate2">Chill </div>
-                <div className="col-1 cate3">
-                  <p className="dingg">Dingga</p>
-                </div>
-                <div className="col-1 cate4">
-                  <p className="song">Songs</p>
-                </div>
-                <div className="col-1 cate5">
-                  <p className="lofi">Lofi</p>
-                </div>
-                <div className="col-1 cate6">
-                  <p>...</p>
+                <div className="col-4 cate1">
+                  <p>22/5/2021 -30/5/2021</p>
                 </div>
               </div>
             </div>
             <div className="col-1 date">
-              <p>8/4/2024</p>
+              <p></p>
             </div>
             <div className="col-1 er">
-              <p>Cindy Cường</p>
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xem Chi tiết
+                </a>
+              </div>
             </div>
             <div className="col-1">
               <div className="detail">
                 {" "}
                 <a class="nav-link" href="/#">
-                  Chi tiết
+                  Xóa
                 </a>
               </div>
             </div>
           </div>
           <div className="row contentframe">
             <div className="col-1">
-              <p>1</p>
+              <p>3</p>
             </div>
             <div className="col-2">
-              <p>Top ca khúc 2023</p>
+              <p>Lịch phát số 3</p>
             </div>
             <div className="col-1">
-              <p>20</p>
+              <p></p>
             </div>
             <div className="col-1">
-              <p>01:04:27</p>
+              <p></p>
             </div>
             <div className="col-6">
               <div className="row">
-                <div className="col-1 cate1">
-                  <p>Pop</p>
-                </div>
-                <div className="col-1 cate2">Chill </div>
-                <div className="col-1 cate3">
-                  <p className="dingg">Dingga</p>
-                </div>
-                <div className="col-1 cate4">
-                  <p className="song">Songs</p>
-                </div>
-                <div className="col-1 cate5">
-                  <p className="lofi">Lofi</p>
-                </div>
-                <div className="col-1 cate6">
-                  <p>...</p>
+                <div className="col-4 cate1">
+                  <p>22/5/2021 -30/5/2021</p>
                 </div>
               </div>
             </div>
             <div className="col-1 date">
-              <p>8/4/2024</p>
+              <p></p>
             </div>
             <div className="col-1 er">
-              <p>Cindy Cường</p>
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xem Chi tiết
+                </a>
+              </div>
             </div>
             <div className="col-1">
               <div className="detail">
                 {" "}
                 <a class="nav-link" href="/#">
-                  Chi tiết
+                  Xóa
+                </a>
+              </div>
+            </div>
+          </div>{" "}
+          <div className="row contentframe">
+            <div className="col-1">
+              <p>4</p>
+            </div>
+            <div className="col-2">
+              <p>Lịch phát số 4</p>
+            </div>
+            <div className="col-1">
+              <p></p>
+            </div>
+            <div className="col-1">
+              <p></p>
+            </div>
+            <div className="col-6">
+              <div className="row">
+                <div className="col-4 cate1">
+                  <p>22/5/2021 -30/5/2021</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-1 date">
+              <p></p>
+            </div>
+            <div className="col-1 er">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xem Chi tiết
+                </a>
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xóa
+                </a>
+              </div>
+            </div>
+          </div>{" "}
+          <div className="row contentframe">
+            <div className="col-1">
+              <p>5</p>
+            </div>
+            <div className="col-2">
+              <p>Lịch phát số 5</p>
+            </div>
+            <div className="col-1">
+              <p></p>
+            </div>
+            <div className="col-1">
+              <p></p>
+            </div>
+            <div className="col-6">
+              <div className="row">
+                <div className="col-4 cate1">
+                  <p>22/5/2021 -30/5/2021</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-1 date">
+              <p></p>
+            </div>
+            <div className="col-1 er">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xem Chi tiết
+                </a>
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xóa
+                </a>
+              </div>
+            </div>
+          </div>{" "}
+          <div className="row contentframe">
+            <div className="col-1">
+              <p>6</p>
+            </div>
+            <div className="col-2">
+              <p>Lịch phát số 6</p>
+            </div>
+            <div className="col-1">
+              <p></p>
+            </div>
+            <div className="col-1">
+              <p></p>
+            </div>
+            <div className="col-6">
+              <div className="row">
+                <div className="col-4 cate1">
+                  <p>22/5/2021 -30/5/2021</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-1 date">
+              <p></p>
+            </div>
+            <div className="col-1 er">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xem Chi tiết
+                </a>
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xóa
+                </a>
+              </div>
+            </div>
+          </div>{" "}
+          <div className="row contentframe">
+            <div className="col-1">
+              <p>7</p>
+            </div>
+            <div className="col-2">
+              <p>Lịch phát số 7</p>
+            </div>
+            <div className="col-1">
+              <p></p>
+            </div>
+            <div className="col-1">
+              <p></p>
+            </div>
+            <div className="col-6">
+              <div className="row">
+                <div className="col-4 cate1">
+                  <p>22/5/2021 -30/5/2021</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-1 date">
+              <p></p>
+            </div>
+            <div className="col-1 er">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xem Chi tiết
+                </a>
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xóa
+                </a>
+              </div>
+            </div>
+          </div>{" "}
+          <div className="row contentframe">
+            <div className="col-1">
+              <p>8</p>
+            </div>
+            <div className="col-2">
+              <p>Lịch phát số 8</p>
+            </div>
+            <div className="col-1">
+              <p></p>
+            </div>
+            <div className="col-1">
+              <p></p>
+            </div>
+            <div className="col-6">
+              <div className="row">
+                <div className="col-4 cate1">
+                  <p>22/5/2021 -30/5/2021</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-1 date">
+              <p></p>
+            </div>
+            <div className="col-1 er">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xem Chi tiết
+                </a>
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xóa
                 </a>
               </div>
             </div>
           </div>
           <div className="row contentframe">
             <div className="col-1">
-              <p>1</p>
+              <p>9</p>
             </div>
             <div className="col-2">
-              <p>Top ca khúc 2023</p>
+              <p>Lịch phát số 9</p>
             </div>
             <div className="col-1">
-              <p>20</p>
+              <p></p>
             </div>
             <div className="col-1">
-              <p>01:04:27</p>
+              <p></p>
             </div>
             <div className="col-6">
               <div className="row">
-                <div className="col-1 cate1">
-                  <p>Pop</p>
-                </div>
-                <div className="col-1 cate2">Chill </div>
-                <div className="col-1 cate3">
-                  <p className="dingg">Dingga</p>
-                </div>
-                <div className="col-1 cate4">
-                  <p className="song">Songs</p>
-                </div>
-                <div className="col-1 cate5">
-                  <p className="lofi">Lofi</p>
-                </div>
-                <div className="col-1 cate6">
-                  <p>...</p>
+                <div className="col-4 cate1">
+                  <p>22/5/2021 -30/5/2021</p>
                 </div>
               </div>
             </div>
             <div className="col-1 date">
-              <p>8/4/2024</p>
+              <p></p>
             </div>
             <div className="col-1 er">
-              <p>Cindy Cường</p>
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xem Chi tiết
+                </a>
+              </div>
             </div>
             <div className="col-1">
               <div className="detail">
                 {" "}
                 <a class="nav-link" href="/#">
-                  Chi tiết
+                  Xóa
                 </a>
               </div>
             </div>
           </div>
           <div className="row contentframe">
             <div className="col-1">
-              <p>1</p>
+              <p>10</p>
             </div>
             <div className="col-2">
-              <p>Top ca khúc 2023</p>
+              <p>Lịch phát số 10</p>
             </div>
             <div className="col-1">
-              <p>20</p>
+              <p></p>
             </div>
             <div className="col-1">
-              <p>01:04:27</p>
+              <p></p>
             </div>
             <div className="col-6">
               <div className="row">
-                <div className="col-1 cate1">
-                  <p>Pop</p>
-                </div>
-                <div className="col-1 cate2">Chill </div>
-                <div className="col-1 cate3">
-                  <p className="dingg">Dingga</p>
-                </div>
-                <div className="col-1 cate4">
-                  <p className="song">Songs</p>
-                </div>
-                <div className="col-1 cate5">
-                  <p className="lofi">Lofi</p>
-                </div>
-                <div className="col-1 cate6">
-                  <p>...</p>
+                <div className="col-4 cate1">
+                  <p>22/5/2021 -30/5/2021</p>
                 </div>
               </div>
             </div>
             <div className="col-1 date">
-              <p>8/4/2024</p>
+              <p></p>
             </div>
             <div className="col-1 er">
-              <p>Cindy Cường</p>
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xem Chi tiết
+                </a>
+              </div>
             </div>
             <div className="col-1">
               <div className="detail">
                 {" "}
                 <a class="nav-link" href="/#">
-                  Chi tiết
+                  Xóa
                 </a>
               </div>
             </div>
           </div>
           <div className="row contentframe">
             <div className="col-1">
-              <p>1</p>
+              <p>11</p>
             </div>
             <div className="col-2">
-              <p>Top ca khúc 2023</p>
+              <p>Lịch phát số 11</p>
             </div>
             <div className="col-1">
-              <p>20</p>
+              <p></p>
             </div>
             <div className="col-1">
-              <p>01:04:27</p>
+              <p></p>
             </div>
             <div className="col-6">
               <div className="row">
-                <div className="col-1 cate1">
-                  <p>Pop</p>
-                </div>
-                <div className="col-1 cate2">Chill </div>
-                <div className="col-1 cate3">
-                  <p className="dingg">Dingga</p>
-                </div>
-                <div className="col-1 cate4">
-                  <p className="song">Songs</p>
-                </div>
-                <div className="col-1 cate5">
-                  <p className="lofi">Lofi</p>
-                </div>
-                <div className="col-1 cate6">
-                  <p>...</p>
+                <div className="col-4 cate1">
+                  <p>22/5/2021 -30/5/2021</p>
                 </div>
               </div>
             </div>
             <div className="col-1 date">
-              <p>8/4/2024</p>
+              <p></p>
             </div>
             <div className="col-1 er">
-              <p>Cindy Cường</p>
+              <div className="detail">
+                {" "}
+                <a class="nav-link" href="/#">
+                  Xem Chi tiết
+                </a>
+              </div>
             </div>
             <div className="col-1">
               <div className="detail">
                 {" "}
                 <a class="nav-link" href="/#">
-                  Chi tiết
+                  Xóa
                 </a>
               </div>
             </div>
           </div>
           <div className="row contentframe">
             <div className="col-1">
-              <p>1</p>
+              <p>12</p>
             </div>
             <div className="col-2">
-              <p>Top ca khúc 2023</p>
+              <p>Lịch phát số 12</p>
             </div>
             <div className="col-1">
-              <p>20</p>
+              <p></p>
             </div>
             <div className="col-1">
-              <p>01:04:27</p>
+              <p></p>
             </div>
             <div className="col-6">
               <div className="row">
-                <div className="col-1 cate1">
-                  <p>Pop</p>
-                </div>
-                <div className="col-1 cate2">Chill </div>
-                <div className="col-1 cate3">
-                  <p className="dingg">Dingga</p>
-                </div>
-                <div className="col-1 cate4">
-                  <p className="song">Songs</p>
-                </div>
-                <div className="col-1 cate5">
-                  <p className="lofi">Lofi</p>
-                </div>
-                <div className="col-1 cate6">
-                  <p>...</p>
+                <div className="col-4 cate1">
+                  <p>22/5/2021 -30/5/2021</p>
                 </div>
               </div>
             </div>
             <div className="col-1 date">
-              <p>8/4/2024</p>
+              <p></p>
             </div>
             <div className="col-1 er">
-              <p>Cindy Cường</p>
-            </div>
-            <div className="col-1">
               <div className="detail">
                 {" "}
                 <a class="nav-link" href="/#">
-                  Chi tiết
+                  Xem Chi tiết
                 </a>
               </div>
             </div>
-          </div>
-          <div className="row contentframe">
-            <div className="col-1">
-              <p>1</p>
-            </div>
-            <div className="col-2">
-              <p>Top ca khúc 2023</p>
-            </div>
-            <div className="col-1">
-              <p>20</p>
-            </div>
-            <div className="col-1">
-              <p>01:04:27</p>
-            </div>
-            <div className="col-6">
-              <div className="row">
-                <div className="col-1 cate1">
-                  <p>Pop</p>
-                </div>
-                <div className="col-1 cate2">Chill </div>
-                <div className="col-1 cate3">
-                  <p className="dingg">Dingga</p>
-                </div>
-                <div className="col-1 cate4">
-                  <p className="song">Songs</p>
-                </div>
-                <div className="col-1 cate5">
-                  <p className="lofi">Lofi</p>
-                </div>
-                <div className="col-1 cate6">
-                  <p>...</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-1 date">
-              <p>8/4/2024</p>
-            </div>
-            <div className="col-1 er">
-              <p>Cindy Cường</p>
-            </div>
             <div className="col-1">
               <div className="detail">
                 {" "}
                 <a class="nav-link" href="/#">
-                  Chi tiết
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="row contentframe">
-            <div className="col-1">
-              <p>1</p>
-            </div>
-            <div className="col-2">
-              <p>Top ca khúc 2023</p>
-            </div>
-            <div className="col-1">
-              <p>20</p>
-            </div>
-            <div className="col-1">
-              <p>01:04:27</p>
-            </div>
-            <div className="col-6">
-              <div className="row">
-                <div className="col-1 cate1">
-                  <p>Pop</p>
-                </div>
-                <div className="col-1 cate2">Chill </div>
-                <div className="col-1 cate3">
-                  <p className="dingg">Dingga</p>
-                </div>
-                <div className="col-1 cate4">
-                  <p className="song">Songs</p>
-                </div>
-                <div className="col-1 cate5">
-                  <p className="lofi">Lofi</p>
-                </div>
-                <div className="col-1 cate6">
-                  <p>...</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-1 date">
-              <p>8/4/2024</p>
-            </div>
-            <div className="col-1 er">
-              <p>Cindy Cường</p>
-            </div>
-            <div className="col-1">
-              <div className="detail">
-                {" "}
-                <a class="nav-link" href="/#">
-                  Chi tiết
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="row contentframe">
-            <div className="col-1">
-              <p>1</p>
-            </div>
-            <div className="col-2">
-              <p>Top ca khúc 2023</p>
-            </div>
-            <div className="col-1">
-              <p>20</p>
-            </div>
-            <div className="col-1">
-              <p>01:04:27</p>
-            </div>
-            <div className="col-6">
-              <div className="row">
-                <div className="col-1 cate1">
-                  <p>Pop</p>
-                </div>
-                <div className="col-1 cate2">Chill </div>
-                <div className="col-1 cate3">
-                  <p className="dingg">Dingga</p>
-                </div>
-                <div className="col-1 cate4">
-                  <p className="song">Songs</p>
-                </div>
-                <div className="col-1 cate5">
-                  <p className="lofi">Lofi</p>
-                </div>
-                <div className="col-1 cate6">
-                  <p>...</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-1 date">
-              <p>8/4/2024</p>
-            </div>
-            <div className="col-1 er">
-              <p>Cindy Cường</p>
-            </div>
-            <div className="col-1">
-              <div className="detail">
-                {" "}
-                <a class="nav-link" href="/#">
-                  Chi tiết
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="row contentframe">
-            <div className="col-1">
-              <p>1</p>
-            </div>
-            <div className="col-2">
-              <p>Top ca khúc 2023</p>
-            </div>
-            <div className="col-1">
-              <p>20</p>
-            </div>
-            <div className="col-1">
-              <p>01:04:27</p>
-            </div>
-            <div className="col-6">
-              <div className="row">
-                <div className="col-1 cate1">
-                  <p>Pop</p>
-                </div>
-                <div className="col-1 cate2">Chill </div>
-                <div className="col-1 cate3">
-                  <p className="dingg">Dingga</p>
-                </div>
-                <div className="col-1 cate4">
-                  <p className="song">Songs</p>
-                </div>
-                <div className="col-1 cate5">
-                  <p className="lofi">Lofi</p>
-                </div>
-                <div className="col-1 cate6">
-                  <p>...</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-1 date">
-              <p>8/4/2024</p>
-            </div>
-            <div className="col-1 er">
-              <p>Cindy Cường</p>
-            </div>
-            <div className="col-1">
-              <div className="detail">
-                {" "}
-                <a class="nav-link" href="/#">
-                  Chi tiết
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="row contentframe">
-            <div className="col-1">
-              <p>1</p>
-            </div>
-            <div className="col-2">
-              <p>Top ca khúc 2023</p>
-            </div>
-            <div className="col-1">
-              <p>20</p>
-            </div>
-            <div className="col-1">
-              <p>01:04:27</p>
-            </div>
-            <div className="col-6">
-              <div className="row">
-                <div className="col-1 cate1">
-                  <p>Pop</p>
-                </div>
-                <div className="col-1 cate2">Chill </div>
-                <div className="col-1 cate3">
-                  <p className="dingg">Dingga</p>
-                </div>
-                <div className="col-1 cate4">
-                  <p className="song">Songs</p>
-                </div>
-                <div className="col-1 cate5">
-                  <p className="lofi">Lofi</p>
-                </div>
-                <div className="col-1 cate6">
-                  <p>...</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-1 date">
-              <p>8/4/2024</p>
-            </div>
-            <div className="col-1 er">
-              <p>Cindy Cường</p>
-            </div>
-            <div className="col-1">
-              <div className="detail">
-                {" "}
-                <a class="nav-link" href="/#">
-                  Chi tiết
+                  Xóa
                 </a>
               </div>
             </div>
@@ -744,7 +648,7 @@ const Playlist = () => {
             <li class="nav-item">
               <FontAwesomeIcon icon={faPlus} style={{ color: "#ff8614" }} />
               <a class="nav-link" href="/#">
-                Sửa thông tin
+                Thêm lịch phát
               </a>
             </li>
           </ul>
@@ -754,4 +658,4 @@ const Playlist = () => {
   );
 };
 
-export default Playlist;
+export default Calendarr;

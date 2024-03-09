@@ -51,10 +51,12 @@ const Userr = () => {
               </NavLink>
             </li>
             <li class="nav-item">
-              <FontAwesomeIcon icon={faCalendarDays} />
-              <a class="nav-link" href="/#">
-                Lập lịch phát
-              </a>
+              <NavLink to="/calendarr">
+                <FontAwesomeIcon icon={faCalendarDays} />
+                <a class="nav-link" href="/#">
+                  Lập lịch phát
+                </a>
+              </NavLink>
             </li>
             <li class="nav-item">
               <NavLink to="/Manage">

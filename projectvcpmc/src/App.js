@@ -8,7 +8,9 @@ import Userr from "./component/Userr";
 import Record from "./component/Record";
 import Manage from "./component/Manage";
 import Playlist from "./component/Playlist";
+import Calendarr from "./component/Calendarr";
 import RecordCard from "./component/RecordCard";
+
 const App = () => {
   return (
     <Router>
@@ -17,6 +19,7 @@ const App = () => {
 
         <Route path="/record" element={<Record />} />
         <Route path="/playlist" element={<Playlist />} />
+        <Route path="/calendarr" element={<Calendarr />} />
         <Route path="/manage" element={<Manage />} />
         <Route path="/recordcard" element={<RecordCard />} />
 

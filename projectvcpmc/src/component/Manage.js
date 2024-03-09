@@ -458,27 +458,33 @@ const Manage = () => {
             </div>
           </div>
           <div className="row">
-            <div className=" footframe">
+            <div className=" footframecor">
               <div className="row">
                 {" "}
-                <div className="col-1 foot">
+                <div className="col-1 footcor">
                   <p>Hiển thị </p>
                 </div>
                 <div className="col-1 footip">
                   {" "}
                   <input
                     type="text"
-                    className="form-control footer"
-                    placeholder="Recipient's username"
-                    aria-label="Recipient's username"
+                    className="form-control footercor"
+                    placeholder=""
+                    aria-label=""
                     aria-describedby="basic-addon2"
                   />
                 </div>
-                <div className="col-8 foot">
+                <div className="col-7 footcor">
                   <p>hàng trong mỗi trang </p>
                 </div>
-                <div className="col-2 foot">
-                  <p>1 2 3 _100 </p>
+                <div className="col-1 footcornumber">
+                  <p>1 </p>
+                </div>
+                <div className="col-1 footcornumber">
+                  <p className="twoo">2 </p>
+                </div>
+                <div className="col-1 footcornumber">
+                  <p className="three">3 ... 10</p>
                 </div>
               </div>
             </div>

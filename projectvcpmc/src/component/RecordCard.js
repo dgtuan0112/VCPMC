@@ -201,7 +201,10 @@ const RecordCard = () => {
         <div className="col-9 frame">
           <div className="row firtframe">
             <div className="col">
-              <div className="card">
+              <div
+                className="card"
+                onClick={() => handleImageClick(imageRecord)}
+              >
                 <img className="imagerecord" src={imageRecord} alt="Logo" />
                 <div class="card-body">
                   <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
@@ -338,7 +341,10 @@ const RecordCard = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div
+                className="card "
+                onClick={() => handleImageClick(imageRecord)}
+              >
                 <img className="imagerecord" src={imageRecord} alt="Logo" />
                 <div class="card-body">
                   <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
@@ -405,7 +411,10 @@ const RecordCard = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div
+                className="card"
+                onClick={() => handleImageClick(imageRecord)}
+              >
                 <img className="imagerecord" src={imageRecord} alt="Logo" />
                 <div class="card-body">
                   <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
@@ -474,7 +483,10 @@ const RecordCard = () => {
           </div>
           <div className="row twoframe">
             <div className="col">
-              <div className="card">
+              <div
+                className="card"
+                onClick={() => handleImageClick(imageRecord)}
+              >
                 <img className="imagerecord" src={imageRecord} alt="Logo" />
                 <div class="card-body">
                   <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
@@ -541,7 +553,10 @@ const RecordCard = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div
+                className="card"
+                onClick={() => handleImageClick(imageRecord)}
+              >
                 <img className="imagerecord" src={imageRecord} alt="Logo" />
                 <div class="card-body">
                   <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
@@ -608,7 +623,10 @@ const RecordCard = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div
+                className="card"
+                onClick={() => handleImageClick(imageRecord)}
+              >
                 <img className="imagerecord" src={imageRecord} alt="Logo" />
                 <div class="card-body">
                   <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
@@ -675,7 +693,10 @@ const RecordCard = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div
+                className="card"
+                onClick={() => handleImageClick(imageRecord)}
+              >
                 <img className="imagerecord" src={imageRecord} alt="Logo" />
                 <div class="card-body">
                   <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
@@ -754,16 +775,22 @@ const RecordCard = () => {
                   <input
                     type="text"
                     className="form-control footercor"
-                    placeholder="Recipient's username"
-                    aria-label="Recipient's username"
+                    placeholder=""
+                    aria-label=""
                     aria-describedby="basic-addon2"
                   />
                 </div>
-                <div className="col-8 footcor">
+                <div className="col-7 footcor">
                   <p>hàng trong mỗi trang </p>
                 </div>
-                <div className="col-2 footcor">
-                  <p>1 2 3 _100 </p>
+                <div className="col-1 footcornumber">
+                  <p>1 </p>
+                </div>
+                <div className="col-1 footcornumber">
+                  <p className="twoo">2 </p>
+                </div>
+                <div className="col-1 footcornumber">
+                  <p className="three">3 ... 10</p>
                 </div>
               </div>
             </div>

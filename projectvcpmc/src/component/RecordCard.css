@@ -184,3 +184,20 @@ svg#pencor {
   margin-left: -7px;
   margin-top: 5px;
 }
+
+p.twoo {
+  margin-left: -64px;
+  background-color: orange;
+  width: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.col-1.footcornumber {
+  margin-top: 21px;
+  font-size: 10px;
+}
+
+p.three {
+  margin-left: -114px;
+}

@@ -19,7 +19,7 @@ import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-const Playlist = () => {
+const Calendar = () => {
   return (
     <div className="contract_page">
       <div className="Logo">
@@ -754,4 +754,4 @@ const Playlist = () => {
   );
 };
 
-export default Playlist;
+export default Calendar;

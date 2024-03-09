@@ -220,28 +220,28 @@ const Record = () => {
           </div>
           <div className="row contentframe">
             <div className="col-1">
-              <p>1</p>
+              <p className="content">1</p>
             </div>
             <div className="col-1">
-              <p>Mất em</p>
+              <p className="content">Mất em</p>
             </div>
             <div className="col-1">
-              <p>KRA0105463</p>
+              <p className="content">KRA0105463</p>
             </div>
             <div className="col-1">
-              <p>04:27</p>
+              <p className="content">04:27</p>
             </div>
             <div className="col-1">
-              <p>Phan Mạnh Quỳnh</p>
+              <p className="content">Phan Mạnh Quỳnh</p>
             </div>
             <div className="col-2">
-              <p>Phan Mạnh Quỳnh</p>
+              <p className="content">Phan Mạnh Quỳnh</p>
             </div>
             <div className="col-1">
-              <p>Ballad</p>
+              <p className="content">Ballad</p>
             </div>
             <div className="col-1">
-              <p>Audio</p>
+              <p className="content">Audio</p>
             </div>
             <div className="col-1">
               <p>Còn thời gian</p>
@@ -636,16 +636,22 @@ const Record = () => {
                   <input
                     type="text"
                     className="form-control footercor"
-                    placeholder="Recipient's username"
-                    aria-label="Recipient's username"
+                    placeholder=""
+                    aria-label=""
                     aria-describedby="basic-addon2"
                   />
                 </div>
-                <div className="col-8 footcor">
+                <div className="col-7 footcor">
                   <p>hàng trong mỗi trang </p>
                 </div>
-                <div className="col-2 footcor">
-                  <p>1 2 3 _100 </p>
+                <div className="col-1 footcornumber">
+                  <p>1 </p>
+                </div>
+                <div className="col-1 footcornumber">
+                  <p className="twoo">2 </p>
+                </div>
+                <div className="col-1 footcornumber">
+                  <p className="three">3 ... 10</p>
                 </div>
               </div>
             </div>
