@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import logoImage from "../images/logo.jpg";
 import exampleImage from "../images/n.png";
-
+import "./Login.css";
 const SelectExample = () => {
   const [isFocused, setIsFocused] = useState(false);
   const [error, setError] = useState(null);
@@ -16,6 +16,8 @@ const SelectExample = () => {
     setIsFocused(false);
   };
 
+  const navigate = useNavigate();
+
   const handleSubmit = (event) => {
     event.preventDefault();
 
@@ -25,6 +27,7 @@ const SelectExample = () => {
     if (username !== "tuan" || password !== "112") {
       setError("Sai tên đăng nhập hoặc mật khẩu");
     } else {
+      navigate("/userr");
     }
   };
 
@@ -37,7 +40,7 @@ const SelectExample = () => {
 
       <div className="login_page">
         <div className="login-form-container">
-          <img className="lgoimg" src={logoImage} alt="Logo" />
+          <img className="lgoimglogin" src={logoImage} alt="Logo" />
           <h3 className="titlelog">Đăng nhập</h3>
           <form onSubmit={handleSubmit}>
             <div>

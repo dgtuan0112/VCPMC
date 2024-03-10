@@ -72,6 +72,9 @@ a.nav-link {
   font-size: 9px;
 }
 
+a.nav-link.record {
+  margin-left: 22px;
+}
 input#inputPassword5 {
   width: 177px;
 }

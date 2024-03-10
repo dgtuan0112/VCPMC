@@ -1,6 +1,8 @@
 import exampleImage from "../images/n.png";
 import logoImage from "../images/logo.jpg";
 import logoAvar from "../images/avatar.jpg";
+import { NavLink } from "react-router-dom";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSliders } from "@fortawesome/free-solid-svg-icons";
 import { faList } from "@fortawesome/free-solid-svg-icons";
@@ -98,46 +100,54 @@ const Manage = () => {
 
       <div className="col">
         <div className="menu-left">
-          <ul class="navbar-nav flex-column ">
-            <li class="nav-item">
-              <FontAwesomeIcon icon={faSliders} />
-              <a class="nav-link" href="/#">
-                Kho bản ghi
-              </a>
+          <ul className="navbar-nav flex-column ">
+            <li className="nav-item">
+              <NavLink to="/record">
+                <FontAwesomeIcon icon={faSliders} />
+                <a className="nav-link record" href="/#">
+                  Kho bản ghi
+                </a>
+              </NavLink>
             </li>
-            <li class="nav-item">
-              <FontAwesomeIcon icon={faList} />
-              <a class="nav-link" href="/#">
-                Playlist
-              </a>
+            <li className="nav-item">
+              <NavLink to="/playlist">
+                <FontAwesomeIcon icon={faList} />
+                <a className="nav-link record" href="/#">
+                  Playlist
+                </a>
+              </NavLink>
             </li>
-            <li class="nav-item">
-              <FontAwesomeIcon icon={faCalendarDays} />
-              <a class="nav-link" href="/#">
-                Lập lịch phát
-              </a>
+            <li className="nav-item">
+              <NavLink to="/calendarr">
+                <FontAwesomeIcon icon={faCalendarDays} />
+                <a className="nav-link record" href="/#">
+                  Lập lịch phát
+                </a>
+              </NavLink>
             </li>
-            <li class="nav-item">
-              <FontAwesomeIcon icon={faFile} />
-              <a class="nav-link" href="/#">
-                Quản lý
-              </a>
+            <li className="nav-item">
+              <NavLink to="/manage">
+                <FontAwesomeIcon icon={faFile} />
+                <a className="nav-link record" href="/#">
+                  Quản lý
+                </a>
+              </NavLink>
             </li>
             <li class="nav-item">
               <FontAwesomeIcon icon={faDollarSign} />
-              <a class="nav-link" href="/#">
+              <a className="nav-link record" href="/#">
                 Doanh thu
               </a>
             </li>
             <li class="nav-item">
               <FontAwesomeIcon icon={faGear} />
-              <a class="nav-link" href="/#">
+              <a className="nav-link record" href="/#">
                 Cài đặt
               </a>
             </li>
             <li class="nav-item">
               <FontAwesomeIcon icon={faCircleQuestion} />
-              <a class="nav-link" href="/#">
+              <a className="nav-link record" href="/#">
                 Hỗ trợ
               </a>
             </li>

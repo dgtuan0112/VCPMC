@@ -70,6 +70,7 @@ svg.svg-inline--fa.fa-pen-to-square {
 a.nav-link {
   text-align: center;
   font-size: 9px;
+  margin-left: -16px;
 }
 
 input#inputPassword5 {

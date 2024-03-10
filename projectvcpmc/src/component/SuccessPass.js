@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logoImage from "../images/logo.jpg";
 import exampleImage from "../images/n.png";
 import "./SuccessPass.css";
+import { NavLink } from "react-router-dom";
 
 const SuccessPass = () => {
   const [isFocused, setIsFocused] = useState(false);
@@ -60,9 +61,9 @@ const SuccessPass = () => {
           )}
 
           <div className="forgot-pass">
-            {!isSubmitSuccessful && (
+            <NavLink to="/">
               <p className="linkpagesucc">Quay lại đăng nhập</p>
-            )}
+            </NavLink>
           </div>
         </div>
       </div>

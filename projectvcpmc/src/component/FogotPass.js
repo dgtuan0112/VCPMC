@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 import logoImage from "../images/logo.jpg";
 import exampleImage from "../images/n.png";
@@ -76,7 +76,9 @@ const FogotPass = () => {
             </button>
           </form>
           <div classNam="forgot-pass">
-            <p className="linkpagefogot">Quay lại đăng nhập</p>
+            <NavLink to="/">
+              <p className="linkpagefogot">Quay lại đăng nhập</p>
+            </NavLink>
           </div>
         </div>
       </div>

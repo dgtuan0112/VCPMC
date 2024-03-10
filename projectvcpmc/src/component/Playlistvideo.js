@@ -2,20 +2,22 @@ import exampleImage from "../images/n.png";
 import logoImage from "../images/logo.jpg";
 import logoAvar from "../images/avatar.jpg";
 import recordImage from "../images/nghebanghi.jpg";
-import imageRecord from "../images/13c.jpg";
-import imageCard1 from "../images/hoado.png";
-import imageCard2 from "../images/edm.png";
-import imageCard3 from "../images/canhdong.png";
-import imageCard4 from "../images/casy.png";
-import imageCard5 from "../images/lemon.jpg";
-import imageCard6 from "../images/hoatrang.jpg";
-import imageCard7 from "../images/casynam.jpg";
+import imagePlay1 from "../images/play1.jpg";
+import imagePlay2 from "../images/play2.jpg";
+import imagePlay3 from "../images/play3.jpg";
+import imagePlay4 from "../images/play4.jpg";
+import imagePlay5 from "../images/play5.jpg";
+import imagePlay6 from "../images/play6.jpg";
+import imagePlay7 from "../images/play7.jpg";
+import imagePlay8 from "../images/play8.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSliders } from "@fortawesome/free-solid-svg-icons";
 import { faList } from "@fortawesome/free-solid-svg-icons";
 import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
+import { faCircleExclamation } from "@fortawesome/free-solid-svg-icons";
 import "./Record.css";
+import "./Playlistvideo.css";
 import { faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { faDollarSign } from "@fortawesome/free-solid-svg-icons";
@@ -31,7 +33,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import { NavLink } from "react-router-dom";
 import React, { useState } from "react";
 
-const RecordCard = () => {
+const Playlistvideo = () => {
   const [showImage, setShowImage] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -54,8 +56,9 @@ const RecordCard = () => {
 
       {/* <div className="container"> */}
       <div className="paging">
-        <h4 className="paging2">Kho bản ghi</h4>
-        <div className="row tab">
+        <h4 className="paging2">Playlist</h4>
+
+        <div className="row sele">
           <div className="col-2">
             <input
               type="text"
@@ -65,92 +68,18 @@ const RecordCard = () => {
               aria-describedby="basic-addon2"
             />
           </div>
-          <div className="col-2">
+          <div className="col-8">
             <FontAwesomeIcon icon={faMagnifyingGlass} />
           </div>
-        </div>
-        <div className="col">
-          <div className="row selecor">
-            <div className="col-1">
-              <p className="labelselecor1">Thể loại</p>
-            </div>
-            <div className="col-1">
-              <div className="selecor1">
-                <select
-                  id="seleone"
-                  className="form-select"
-                  aria-label="Default select example"
-                >
-                  <option selected>tất cả</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
-            </div>
-            <div className="col-1">
-              <p className="labelsele2">Định dạng</p>
-            </div>
 
-            <div className="col-1">
-              <div className="sele2">
-                <select
-                  id="selecortwo"
-                  className="form-select"
-                  aria-label="Default select example"
-                >
-                  <option selected>tất cả</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
-            </div>
-            <div className="col-2">
-              <p className="labelselecor2">Thời hạn sử dụng</p>
-            </div>
-
-            <div className="col-1">
-              <div className="selecor2">
-                <select
-                  id="selecortwotime"
-                  className="form-select"
-                  aria-label="Default select example"
-                >
-                  <option selected>tất cả</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
-            </div>
-            <div className="col-2">
-              <p className="labelselecor2sta">Trạng thái</p>
-            </div>
-
-            <div className="col-1">
-              <div className="selecor2">
-                <select
-                  id="selecortwostatus"
-                  className="form-select"
-                  aria-label="Default select example"
-                >
-                  <option selected>tất cả</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
-            </div>
-            <div className="col-1">
-              <FontAwesomeIcon icon={faListUl} />
-            </div>
-            <div className="col-1">
-              <NavLink to="/recordcard">
-                {" "}
-                <FontAwesomeIcon icon={faTableCellsLarge} />
-              </NavLink>
-            </div>
+          <div className="col-1">
+            <FontAwesomeIcon icon={faListUl} />
+          </div>
+          <div className="col-1">
+            <NavLink to="/playlistvideo">
+              {" "}
+              <FontAwesomeIcon icon={faTableCellsLarge} />
+            </NavLink>
           </div>
         </div>
       </div>
@@ -218,39 +147,58 @@ const RecordCard = () => {
             <div className="col">
               <div
                 className="card"
-                onClick={() => handleImageClick(imageCard1)}
+                onClick={() => handleImageClick(imagePlay1)}
               >
-                <img className="imagerecord" src={imageCard1} alt="Logo" />
+                <img className="imagerecord" src={imagePlay1} alt="Logo" />
                 <div class="card-body">
                   <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
                   <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text">Ca sĩ:</p>
-                    </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" singer">Bella Poarch</p>
+                      <div className="row">
+                        <div className="col-4 ">
+                          <div className="chude ">
+                            {" "}
+                            <p className="pop-vid1">chủ đề ví dụ</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tloai vid">
+                            {" "}
+                            <p className="pop-vid">Pop</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="ddang vid">
+                            <p className="au-vid">Trending</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tluong vid">
+                            <p className="timee-vid">Good</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="row cardd">
                     <div className="col-4 cardd">
                       {" "}
-                      <p className="card-text st">Sáng tác:</p>
+                      <p className="card-text st">Người tạo:</p>
                     </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" composer">Leilani Zulauf</p>
+                      <p className=" composervid">Admin</p>
                     </div>
                   </div>
                   <div className="row cardd">
                     <div className="col-4 cardd">
                       {" "}
-                      <p className="card-text hd">Số hợp đồng:</p>
+                      <p className="card-text hd">Ngày tạo:</p>
                     </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" contest">HD395738503</p>
+                      <p className=" contest">12/12/2021</p>
                     </div>
                   </div>
 
@@ -258,27 +206,22 @@ const RecordCard = () => {
                     <div className="col ">
                       <div className="tloai">
                         {" "}
-                        <p className="ttpop">Thể loại</p>
-                        <p className="pop">Pop</p>
+                        <p className="ttpop">số bản ghi</p>
+                        <p className="pop">20</p>
                       </div>
                     </div>
                     <div className="col ">
-                      <div className="ddang">
-                        <p className="ttau">Định dạng</p>
-                        <p className="au">Audio</p>
+                      <div className="ddang2">
+                        <p className="ttau">Thời lượng</p>
+                        <p className="au2">1:03:00</p>
                       </div>
                     </div>
-                    <div className="col ">
-                      <div className="tluong">
-                        <p className="tttime">Thời lượng</p>
-                        <p className="timee">03:00</p>
-                      </div>
-                    </div>
+
                     <div className="col-1">
                       <FontAwesomeIcon
                         id="pencor"
-                        icon={faPenToSquare}
-                        style={{ color: "#ff9d2e" }}
+                        icon={faCircleExclamation}
+                        style={{ color: "#f27c0d" }}
                       />{" "}
                     </div>
                   </div>
@@ -288,39 +231,58 @@ const RecordCard = () => {
             <div className="col">
               <div
                 className="card"
-                onClick={() => handleImageClick(imageCard2)}
+                onClick={() => handleImageClick(imagePlay2)}
               >
-                <img className="imagerecord" src={imageCard2} alt="Logo" />
+                <img className="imagerecord" src={imagePlay2} alt="Logo" />
                 <div class="card-body">
                   <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
                   <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text">Ca sĩ:</p>
-                    </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" singer">Bella Poarch</p>
+                      <div className="row">
+                        <div className="col-4 ">
+                          <div className="chude ">
+                            {" "}
+                            <p className="pop-vid1">chủ đề ví dụ</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tloai vid">
+                            {" "}
+                            <p className="pop-vid">Pop</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="ddang vid">
+                            <p className="au-vid">Trending</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tluong vid">
+                            <p className="timee-vid">Good</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="row cardd">
                     <div className="col-4 cardd">
                       {" "}
-                      <p className="card-text st">Sáng tác:</p>
+                      <p className="card-text st">Người tạo:</p>
                     </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" composer">Leilani Zulauf</p>
+                      <p className=" composervid">Admin</p>
                     </div>
                   </div>
                   <div className="row cardd">
                     <div className="col-4 cardd">
                       {" "}
-                      <p className="card-text hd">Số hợp đồng:</p>
+                      <p className="card-text hd">Ngày tạo:</p>
                     </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" contest">HD395738503</p>
+                      <p className=" contest">12/12/2021</p>
                     </div>
                   </div>
 
@@ -328,97 +290,22 @@ const RecordCard = () => {
                     <div className="col ">
                       <div className="tloai">
                         {" "}
-                        <p className="ttpop">Thể loại</p>
-                        <p className="pop">Pop</p>
+                        <p className="ttpop">số bản ghi</p>
+                        <p className="pop">20</p>
                       </div>
                     </div>
                     <div className="col ">
-                      <div className="ddang">
-                        <p className="ttau">Định dạng</p>
-                        <p className="au">Audio</p>
+                      <div className="ddang2">
+                        <p className="ttau">Thời lượng</p>
+                        <p className="au2">1:03:00</p>
                       </div>
                     </div>
-                    <div className="col ">
-                      <div className="tluong">
-                        <p className="tttime">Thời lượng</p>
-                        <p className="timee">03:00</p>
-                      </div>
-                    </div>
-                    <div className="col-1">
-                      <FontAwesomeIcon
-                        id="pencor"
-                        icon={faPenToSquare}
-                        style={{ color: "#ff9d2e" }}
-                      />{" "}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div
-                className="card "
-                onClick={() => handleImageClick(imageCard3)}
-              >
-                <img className="imagerecord" src={imageCard3} alt="Logo" />
-                <div class="card-body">
-                  <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
-                  <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text">Ca sĩ:</p>
-                    </div>{" "}
-                    <div className="col cardd">
-                      {" "}
-                      <p className=" singer">Bella Poarch</p>
-                    </div>
-                  </div>
-                  <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text st">Sáng tác:</p>
-                    </div>{" "}
-                    <div className="col cardd">
-                      {" "}
-                      <p className=" composer">Leilani Zulauf</p>
-                    </div>
-                  </div>
-                  <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text hd">Số hợp đồng:</p>
-                    </div>{" "}
-                    <div className="col cardd">
-                      {" "}
-                      <p className=" contest">HD395738503</p>
-                    </div>
-                  </div>
 
-                  <div className="row">
-                    <div className="col ">
-                      <div className="tloai">
-                        {" "}
-                        <p className="ttpop">Thể loại</p>
-                        <p className="pop">Pop</p>
-                      </div>
-                    </div>
-                    <div className="col ">
-                      <div className="ddang">
-                        <p className="ttau">Định dạng</p>
-                        <p className="au">Audio</p>
-                      </div>
-                    </div>
-                    <div className="col ">
-                      <div className="tluong">
-                        <p className="tttime">Thời lượng</p>
-                        <p className="timee">03:00</p>
-                      </div>
-                    </div>
                     <div className="col-1">
                       <FontAwesomeIcon
                         id="pencor"
-                        icon={faPenToSquare}
-                        style={{ color: "#ff9d2e" }}
+                        icon={faCircleExclamation}
+                        style={{ color: "#f27c0d" }}
                       />{" "}
                     </div>
                   </div>
@@ -428,39 +315,58 @@ const RecordCard = () => {
             <div className="col">
               <div
                 className="card"
-                onClick={() => handleImageClick(imageCard4)}
+                onClick={() => handleImageClick(imagePlay3)}
               >
-                <img className="imagerecord" src={imageCard4} alt="Logo" />
+                <img className="imagerecord" src={imagePlay3} alt="Logo" />
                 <div class="card-body">
                   <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
                   <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text">Ca sĩ:</p>
-                    </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" singer">Bella Poarch</p>
+                      <div className="row">
+                        <div className="col-4 ">
+                          <div className="chude ">
+                            {" "}
+                            <p className="pop-vid1">chủ đề ví dụ</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tloai vid">
+                            {" "}
+                            <p className="pop-vid">Pop</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="ddang vid">
+                            <p className="au-vid">Trending</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tluong vid">
+                            <p className="timee-vid">Good</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="row cardd">
                     <div className="col-4 cardd">
                       {" "}
-                      <p className="card-text st">Sáng tác:</p>
+                      <p className="card-text st">Người tạo:</p>
                     </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" composer">Leilani Zulauf</p>
+                      <p className=" composervid">Admin</p>
                     </div>
                   </div>
                   <div className="row cardd">
                     <div className="col-4 cardd">
                       {" "}
-                      <p className="card-text hd">Số hợp đồng:</p>
+                      <p className="card-text hd">Ngày tạo:</p>
                     </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" contest">HD395738503</p>
+                      <p className=" contest">12/12/2021</p>
                     </div>
                   </div>
 
@@ -468,27 +374,106 @@ const RecordCard = () => {
                     <div className="col ">
                       <div className="tloai">
                         {" "}
-                        <p className="ttpop">Thể loại</p>
-                        <p className="pop">Pop</p>
+                        <p className="ttpop">số bản ghi</p>
+                        <p className="pop">20</p>
                       </div>
                     </div>
                     <div className="col ">
-                      <div className="ddang">
-                        <p className="ttau">Định dạng</p>
-                        <p className="au">Audio</p>
+                      <div className="ddang2">
+                        <p className="ttau">Thời lượng</p>
+                        <p className="au2">1:03:00</p>
                       </div>
                     </div>
-                    <div className="col ">
-                      <div className="tluong">
-                        <p className="tttime">Thời lượng</p>
-                        <p className="timee">03:00</p>
-                      </div>
-                    </div>
+
                     <div className="col-1">
                       <FontAwesomeIcon
                         id="pencor"
-                        icon={faPenToSquare}
-                        style={{ color: "#ff9d2e" }}
+                        icon={faCircleExclamation}
+                        style={{ color: "#f27c0d" }}
+                      />{" "}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div
+                className="card"
+                onClick={() => handleImageClick(imagePlay4)}
+              >
+                <img className="imagerecord" src={imagePlay4} alt="Logo" />
+                <div class="card-body">
+                  <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
+                  <div className="row cardd">
+                    <div className="col cardd">
+                      {" "}
+                      <div className="row">
+                        <div className="col-4 ">
+                          <div className="chude ">
+                            {" "}
+                            <p className="pop-vid1">chủ đề ví dụ</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tloai vid">
+                            {" "}
+                            <p className="pop-vid">Pop</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="ddang vid">
+                            <p className="au-vid">Trending</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tluong vid">
+                            <p className="timee-vid">Good</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row cardd">
+                    <div className="col-4 cardd">
+                      {" "}
+                      <p className="card-text st">Người tạo:</p>
+                    </div>{" "}
+                    <div className="col cardd">
+                      {" "}
+                      <p className=" composervid">Admin</p>
+                    </div>
+                  </div>
+                  <div className="row cardd">
+                    <div className="col-4 cardd">
+                      {" "}
+                      <p className="card-text hd">Ngày tạo:</p>
+                    </div>{" "}
+                    <div className="col cardd">
+                      {" "}
+                      <p className=" contest">12/12/2021</p>
+                    </div>
+                  </div>
+
+                  <div className="row">
+                    <div className="col ">
+                      <div className="tloai">
+                        {" "}
+                        <p className="ttpop">số bản ghi</p>
+                        <p className="pop">20</p>
+                      </div>
+                    </div>
+                    <div className="col ">
+                      <div className="ddang2">
+                        <p className="ttau">Thời lượng</p>
+                        <p className="au2">1:03:00</p>
+                      </div>
+                    </div>
+
+                    <div className="col-1">
+                      <FontAwesomeIcon
+                        id="pencor"
+                        icon={faCircleExclamation}
+                        style={{ color: "#f27c0d" }}
                       />{" "}
                     </div>
                   </div>
@@ -496,43 +481,62 @@ const RecordCard = () => {
               </div>
             </div>
           </div>
-          <div className="row twoframe">
+          <div className="row firtframe">
             <div className="col">
               <div
                 className="card"
-                onClick={() => handleImageClick(imageCard5)}
+                onClick={() => handleImageClick(imagePlay5)}
               >
-                <img className="imagerecord" src={imageCard5} alt="Logo" />
+                <img className="imagerecord" src={imagePlay5} alt="Logo" />
                 <div class="card-body">
                   <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
                   <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text">Ca sĩ:</p>
-                    </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" singer">Bella Poarch</p>
+                      <div className="row">
+                        <div className="col-4 ">
+                          <div className="chude ">
+                            {" "}
+                            <p className="pop-vid1">chủ đề ví dụ</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tloai vid">
+                            {" "}
+                            <p className="pop-vid">Pop</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="ddang vid">
+                            <p className="au-vid">Trending</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tluong vid">
+                            <p className="timee-vid">Good</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="row cardd">
                     <div className="col-4 cardd">
                       {" "}
-                      <p className="card-text st">Sáng tác:</p>
+                      <p className="card-text st">Người tạo:</p>
                     </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" composer">Leilani Zulauf</p>
+                      <p className=" composervid">Admin</p>
                     </div>
                   </div>
                   <div className="row cardd">
                     <div className="col-4 cardd">
                       {" "}
-                      <p className="card-text hd">Số hợp đồng:</p>
+                      <p className="card-text hd">Ngày tạo:</p>
                     </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" contest">HD395738503</p>
+                      <p className=" contest">12/12/2021</p>
                     </div>
                   </div>
 
@@ -540,27 +544,22 @@ const RecordCard = () => {
                     <div className="col ">
                       <div className="tloai">
                         {" "}
-                        <p className="ttpop">Thể loại</p>
-                        <p className="pop">Pop</p>
+                        <p className="ttpop">số bản ghi</p>
+                        <p className="pop">20</p>
                       </div>
                     </div>
                     <div className="col ">
-                      <div className="ddang">
-                        <p className="ttau">Định dạng</p>
-                        <p className="au">Audio</p>
+                      <div className="ddang2">
+                        <p className="ttau">Thời lượng</p>
+                        <p className="au2">1:03:00</p>
                       </div>
                     </div>
-                    <div className="col ">
-                      <div className="tluong">
-                        <p className="tttime">Thời lượng</p>
-                        <p className="timee">03:00</p>
-                      </div>
-                    </div>
+
                     <div className="col-1">
                       <FontAwesomeIcon
                         id="pencor"
-                        icon={faPenToSquare}
-                        style={{ color: "#ff9d2e" }}
+                        icon={faCircleExclamation}
+                        style={{ color: "#f27c0d" }}
                       />{" "}
                     </div>
                   </div>
@@ -570,39 +569,58 @@ const RecordCard = () => {
             <div className="col">
               <div
                 className="card"
-                onClick={() => handleImageClick(imageRecord)}
+                onClick={() => handleImageClick(imagePlay6)}
               >
-                <img className="imagerecord" src={imageRecord} alt="Logo" />
+                <img className="imagerecord" src={imagePlay6} alt="Logo" />
                 <div class="card-body">
                   <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
                   <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text">Ca sĩ:</p>
-                    </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" singer">Bella Poarch</p>
+                      <div className="row">
+                        <div className="col-4 ">
+                          <div className="chude ">
+                            {" "}
+                            <p className="pop-vid1">chủ đề ví dụ</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tloai vid">
+                            {" "}
+                            <p className="pop-vid">Pop</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="ddang vid">
+                            <p className="au-vid">Trending</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tluong vid">
+                            <p className="timee-vid">Good</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="row cardd">
                     <div className="col-4 cardd">
                       {" "}
-                      <p className="card-text st">Sáng tác:</p>
+                      <p className="card-text st">Người tạo:</p>
                     </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" composer">Leilani Zulauf</p>
+                      <p className=" composervid">Admin</p>
                     </div>
                   </div>
                   <div className="row cardd">
                     <div className="col-4 cardd">
                       {" "}
-                      <p className="card-text hd">Số hợp đồng:</p>
+                      <p className="card-text hd">Ngày tạo:</p>
                     </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" contest">HD395738503</p>
+                      <p className=" contest">12/12/2021</p>
                     </div>
                   </div>
 
@@ -610,27 +628,22 @@ const RecordCard = () => {
                     <div className="col ">
                       <div className="tloai">
                         {" "}
-                        <p className="ttpop">Thể loại</p>
-                        <p className="pop">Pop</p>
+                        <p className="ttpop">số bản ghi</p>
+                        <p className="pop">20</p>
                       </div>
                     </div>
                     <div className="col ">
-                      <div className="ddang">
-                        <p className="ttau">Định dạng</p>
-                        <p className="au">Audio</p>
+                      <div className="ddang2">
+                        <p className="ttau">Thời lượng</p>
+                        <p className="au2">1:03:00</p>
                       </div>
                     </div>
-                    <div className="col ">
-                      <div className="tluong">
-                        <p className="tttime">Thời lượng</p>
-                        <p className="timee">03:00</p>
-                      </div>
-                    </div>
+
                     <div className="col-1">
                       <FontAwesomeIcon
                         id="pencor"
-                        icon={faPenToSquare}
-                        style={{ color: "#ff9d2e" }}
+                        icon={faCircleExclamation}
+                        style={{ color: "#f27c0d" }}
                       />{" "}
                     </div>
                   </div>
@@ -640,39 +653,58 @@ const RecordCard = () => {
             <div className="col">
               <div
                 className="card"
-                onClick={() => handleImageClick(imageCard6)}
+                onClick={() => handleImageClick(imagePlay7)}
               >
-                <img className="imagerecord" src={imageCard6} alt="Logo" />
+                <img className="imagerecord" src={imagePlay7} alt="Logo" />
                 <div class="card-body">
                   <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
                   <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text">Ca sĩ:</p>
-                    </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" singer">Bella Poarch</p>
+                      <div className="row">
+                        <div className="col-4 ">
+                          <div className="chude ">
+                            {" "}
+                            <p className="pop-vid1">chủ đề ví dụ</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tloai vid">
+                            {" "}
+                            <p className="pop-vid">Pop</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="ddang vid">
+                            <p className="au-vid">Trending</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tluong vid">
+                            <p className="timee-vid">Good</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="row cardd">
                     <div className="col-4 cardd">
                       {" "}
-                      <p className="card-text st">Sáng tác:</p>
+                      <p className="card-text st">Người tạo:</p>
                     </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" composer">Leilani Zulauf</p>
+                      <p className=" composervid">Admin</p>
                     </div>
                   </div>
                   <div className="row cardd">
                     <div className="col-4 cardd">
                       {" "}
-                      <p className="card-text hd">Số hợp đồng:</p>
+                      <p className="card-text hd">Ngày tạo:</p>
                     </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" contest">HD395738503</p>
+                      <p className=" contest">12/12/2021</p>
                     </div>
                   </div>
 
@@ -680,27 +712,22 @@ const RecordCard = () => {
                     <div className="col ">
                       <div className="tloai">
                         {" "}
-                        <p className="ttpop">Thể loại</p>
-                        <p className="pop">Pop</p>
+                        <p className="ttpop">số bản ghi</p>
+                        <p className="pop">20</p>
                       </div>
                     </div>
                     <div className="col ">
-                      <div className="ddang">
-                        <p className="ttau">Định dạng</p>
-                        <p className="au">Audio</p>
+                      <div className="ddang2">
+                        <p className="ttau">Thời lượng</p>
+                        <p className="au2">1:03:00</p>
                       </div>
                     </div>
-                    <div className="col ">
-                      <div className="tluong">
-                        <p className="tttime">Thời lượng</p>
-                        <p className="timee">03:00</p>
-                      </div>
-                    </div>
+
                     <div className="col-1">
                       <FontAwesomeIcon
                         id="pencor"
-                        icon={faPenToSquare}
-                        style={{ color: "#ff9d2e" }}
+                        icon={faCircleExclamation}
+                        style={{ color: "#f27c0d" }}
                       />{" "}
                     </div>
                   </div>
@@ -710,39 +737,58 @@ const RecordCard = () => {
             <div className="col">
               <div
                 className="card"
-                onClick={() => handleImageClick(imageCard7)}
+                onClick={() => handleImageClick(imagePlay8)}
               >
-                <img className="imagerecord" src={imageCard7} alt="Logo" />
+                <img className="imagerecord" src={imagePlay8} alt="Logo" />
                 <div class="card-body">
                   <h5 class="card-title">Handcraft Fresh Bacon Multy</h5>
                   <div className="row cardd">
-                    <div className="col-4 cardd">
-                      {" "}
-                      <p className="card-text">Ca sĩ:</p>
-                    </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" singer">Bella Poarch</p>
+                      <div className="row">
+                        <div className="col-4 ">
+                          <div className="chude ">
+                            {" "}
+                            <p className="pop-vid1">chủ đề ví dụ</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tloai vid">
+                            {" "}
+                            <p className="pop-vid">Pop</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="ddang vid">
+                            <p className="au-vid">Trending</p>
+                          </div>
+                        </div>
+                        <div className="col-2 ">
+                          <div className="tluong vid">
+                            <p className="timee-vid">Good</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="row cardd">
                     <div className="col-4 cardd">
                       {" "}
-                      <p className="card-text st">Sáng tác:</p>
+                      <p className="card-text st">Người tạo:</p>
                     </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" composer">Leilani Zulauf</p>
+                      <p className=" composervid">Admin</p>
                     </div>
                   </div>
                   <div className="row cardd">
                     <div className="col-4 cardd">
                       {" "}
-                      <p className="card-text hd">Số hợp đồng:</p>
+                      <p className="card-text hd">Ngày tạo:</p>
                     </div>{" "}
                     <div className="col cardd">
                       {" "}
-                      <p className=" contest">HD395738503</p>
+                      <p className=" contest">12/12/2021</p>
                     </div>
                   </div>
 
@@ -750,27 +796,22 @@ const RecordCard = () => {
                     <div className="col ">
                       <div className="tloai">
                         {" "}
-                        <p className="ttpop">Thể loại</p>
-                        <p className="pop">Pop</p>
+                        <p className="ttpop">số bản ghi</p>
+                        <p className="pop">20</p>
                       </div>
                     </div>
                     <div className="col ">
-                      <div className="ddang">
-                        <p className="ttau">Định dạng</p>
-                        <p className="au">Audio</p>
+                      <div className="ddang2">
+                        <p className="ttau">Thời lượng</p>
+                        <p className="au2">1:03:00</p>
                       </div>
                     </div>
-                    <div className="col ">
-                      <div className="tluong">
-                        <p className="tttime">Thời lượng</p>
-                        <p className="timee">03:00</p>
-                      </div>
-                    </div>
+
                     <div className="col-1">
                       <FontAwesomeIcon
                         id="pencor"
-                        icon={faPenToSquare}
-                        style={{ color: "#ff9d2e" }}
+                        icon={faCircleExclamation}
+                        style={{ color: "#f27c0d" }}
                       />{" "}
                     </div>
                   </div>
@@ -846,4 +887,4 @@ const RecordCard = () => {
   );
 };
 
-export default RecordCard;
+export default Playlistvideo;

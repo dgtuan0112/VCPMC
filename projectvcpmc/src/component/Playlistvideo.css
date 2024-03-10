@@ -1,0 +1,85 @@
+.chude {
+  border: 1px solid #c8c8db;
+  height: 24px;
+  margin-left: 1px;
+  width: 51px;
+  height: 15px;
+  border-radius: 3px;
+  margin-top: -4px;
+}
+
+.tloai.vid {
+  border: 1px solid #c8c8db;
+  height: 24px;
+  margin-top: -4px;
+  width: 35px;
+  height: 15px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.ddang.vid {
+  border: 1px solid #c8c8db;
+  height: 24px;
+  margin-left: 6px;
+  width: 35px;
+  height: 15px;
+  border-radius: 3px;
+  text-align: center;
+  margin-top: -4px;
+}
+.tluong.vid {
+  border: 1px solid #c8c8db;
+  height: 24px;
+  margin-left: 12px;
+  width: 35px;
+  height: 15px;
+  border-radius: 3px;
+  text-align: center;
+  margin-top: -4px;
+}
+
+p.pop-vid1 {
+  font-size: 6px;
+  margin-left: 4px;
+  color: #c8c8db;
+}
+p.pop-vid {
+  font-size: 6px;
+  margin-left: 4px;
+  color: #c8c8db;
+}
+
+p.au-vid {
+  font-size: 6px;
+  margin-left: 4px;
+  color: #c8c8db;
+}
+
+p.timee-vid {
+  font-size: 6px;
+  margin-left: 4px;
+  color: #c8c8db;
+}
+
+.ddang2 {
+  border: 1px solid #c8c8db;
+  height: 24px;
+  margin-left: -44px;
+  width: 39px;
+  height: 22px;
+  border-radius: 3px;
+}
+p.composervid {
+  margin-left: -27px;
+  font-weight: normal;
+  margin-bottom: 2px;
+  margin-top: -4px;
+  color: #c8c8db;
+}
+
+p.au2 {
+  font-size: 8px;
+  margin-left: 5px;
+  color: #c8c8db;
+}
