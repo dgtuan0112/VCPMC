@@ -1,0 +1,33 @@
+p.addmag1 {
+  margin-left: 68px;
+  color: rgba(229, 229, 229, 1);
+  font-size: 9px;
+}
+.addmag2 {
+  margin-left: 68px;
+  color: rgba(229, 229, 229, 1);
+}
+
+.addma_page {
+  background-color: black;
+}
+
+.addmag {
+  /* background-color: #141424; */
+}
+
+p.labelmag1 {
+  margin-left: 68px;
+  font-size: 9px;
+  margin-top: 12px;
+}
+
+p.labelmag1 {
+  margin-left: 68px;
+  font-size: 9px;
+  margin-top: 12px;
+}
+
+input#magone {
+  margin-left: -28px;
+}

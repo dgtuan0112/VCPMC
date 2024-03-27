@@ -12,11 +12,14 @@ import Playlist from "./component/Playlist";
 import Calendarr from "./component/Calendarr";
 import RecordCard from "./component/RecordCard";
 import Playlistvideo from "./component/Playlistvideo";
+import AddManage from "./component/AddManage";
 
 const App = () => {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<AddManage />} />
+        {/* <Route path="/" element={<SelectExample />} /> */}
         <Route path="/" element={<SelectExample />} />
         <Route path="/fogotpass" element={<FogotPass />} />
         <Route path="/success-pass" element={<SuccessPass />} />
