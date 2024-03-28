@@ -11,23 +11,78 @@ p.addmag1 {
 .addma_page {
   background-color: black;
 }
+p.labelmag1 {
+  margin-left: 68px;
+  font-size: 9px;
+  margin-top: 22px;
+  color: rgba(229, 229, 229, 1);
+  font-weight: bold;
+}
+
+p.labelmag2 {
+  margin-left: 189px;
+  font-size: 9px;
+  font-weight: bold;
+  color: rgba(229, 229, 229, 1);
+  margin-top: 22px;
+}
+p.labelmag3 {
+}
 
 .addmag {
   /* background-color: #141424; */
 }
 
-p.labelmag1 {
-  margin-left: 68px;
-  font-size: 9px;
-  margin-top: 12px;
-}
-
-p.labelmag1 {
-  margin-left: 68px;
-  font-size: 9px;
-  margin-top: 12px;
-}
-
 input#magone {
   margin-left: -28px;
+  width: 215px;
+  margin-top: 20px;
+}
+
+select#magtwo {
+  margin-left: -50px;
+  width: 95px;
+}
+
+p.labelmag3 {
+  margin-left: 69px;
+  margin-top: 7px;
+  font-size: 9px;
+  font-weight: bold;
+  color: aliceblue;
+}
+p.labelmag4 {
+  margin-left: 69px;
+  margin-top: 7px;
+  font-size: 9px;
+  font-weight: bold;
+  color: aliceblue;
+}
+p.labelmag5 {
+  margin-left: 69px;
+  margin-top: 7px;
+  font-size: 9px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+input#mag3 {
+  margin-left: -29px;
+  width: 215px;
+}
+input#mag4 {
+  margin-left: -29px;
+  width: 215px;
+}
+input#mag5 {
+  margin-left: -29px;
+  width: 215px;
+}
+
+p.labelmag6 {
+  margin-left: 190px;
+  font-size: 9px;
+  font-weight: bold;
+  color: aliceblue;
+  margin-top: 27px;
 }
