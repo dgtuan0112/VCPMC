@@ -128,15 +128,47 @@ const Manage = () => {
             </div>
           </div>
 
+          {/* SAU */}
+
+          <p className="titlelate">Thông tin pháp nhân ủy quyền</p>
           <div className="row mag">
             <div className="col-2">
-              <p className="labelmag1">Quyền sở hữu</p>
+              <p className="labelmag11">Pháp nhân ủy quyền</p>
+            </div>
+            <div className="col-1">
+              <div className="mag1">
+                <input
+                  className="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
+                />
+                <label className="form-check-label" for="flexRadioDefault1">
+                  Cá nhân
+                </label>
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="mag1">
+                <input
+                  className="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
+                />
+                <label className="form-check-label" for="flexRadioDefault1">
+                  Tổ chức
+                </label>
+              </div>
+            </div>
+            <div className="col-3">
+              <p className="labelmag66">CMND/CCCD:</p>
             </div>
             <div className="col-1">
               <div className="mag1">
                 <input
                   type="text"
-                  id="magone"
+                  id="magonee"
                   class="form-control"
                   placeholder="Recipient's username"
                   aria-label="Recipient's username"
@@ -145,28 +177,13 @@ const Manage = () => {
               </div>
             </div>
             <div className="col-3">
-              <p className="labelmag6">CMND/CCCD:</p>
+              <p className="labelmag66">Email:</p>
             </div>
             <div className="col-1">
               <div className="mag1">
                 <input
                   type="text"
-                  id="magone"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-              </div>
-            </div>
-            <div className="col-3">
-              <p className="labelmag6">Email:</p>
-            </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magone"
+                  id="magonee"
                   class="form-control"
                   placeholder="Recipient's username"
                   aria-label="Recipient's username"
@@ -176,15 +193,45 @@ const Manage = () => {
             </div>
           </div>
 
-          <div className="row mag2">
+          <div className="row mag">
             <div className="col-2">
-              <p className="labelmag3">Tên hợp đồng</p>
+              <p className="labelmag22">Tên người ủy quyền:</p>
             </div>
             <div className="col-1">
               <div className="mag1">
                 <input
                   type="text"
-                  id="mag3"
+                  id="magone1"
+                  class="form-control"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+              </div>
+            </div>
+            <div className="col-3">
+              <p className="labelmag6">Ngày cấp:</p>
+            </div>
+            <div className="col-1">
+              <div className="mag1">
+                <input
+                  type="text"
+                  id="magone1"
+                  class="form-control"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+              </div>
+            </div>
+            <div className="col-3">
+              <p className="labelmag6">Tên đăng nhập:</p>
+            </div>
+            <div className="col-1">
+              <div className="mag1">
+                <input
+                  type="text"
+                  id="magone1"
                   class="form-control"
                   placeholder="Recipient's username"
                   aria-label="Recipient's username"
@@ -194,15 +241,59 @@ const Manage = () => {
             </div>
           </div>
 
-          <div className="row mag3">
+          <div className="row mag">
             <div className="col-2">
-              <p className="labelmag4">Ngày hiệu lực</p>
+              <p className="labelmag33">Giới tính</p>
             </div>
-            <div className="col-2">
+            <div className="col-1">
+              <div className="mag1">
+                <input
+                  className="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault2"
+                />
+                {/* <label className="form-check-label2" for="flexRadioDefault1">
+                  Cá nhân
+                </label> */}
+              </div>
+            </div>
+            <div className="col-1">
+              <div className="mag1">
+                <input
+                  className="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault2"
+                />
+                {/* <label className="form-check-label2" for="flexRadioDefault1">
+                  Tổ chức
+                </label> */}
+              </div>
+            </div>
+            <div className="col-3">
+              <p className="labelmag66">Nơi cấp:</p>
+            </div>
+            <div className="col-1">
               <div className="mag1">
                 <input
                   type="text"
-                  id="mag4"
+                  id="magoneee"
+                  class="form-control"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+              </div>
+            </div>
+            <div className="col-3">
+              <p className="labelmag66">Mật khẩu:</p>
+            </div>
+            <div className="col-1">
+              <div className="mag1">
+                <input
+                  type="text"
+                  id="magoneee"
                   class="form-control"
                   placeholder="Recipient's username"
                   aria-label="Recipient's username"
@@ -211,21 +302,135 @@ const Manage = () => {
               </div>
             </div>
           </div>
-          <div className="row mag4">
+          <div className="row mag">
             <div className="col-2">
-              <p className="labelmag5">Ngày hết hạn</p>
+              <p className="labelmag44">Ngày sinh</p>
             </div>
             <div className="col-1">
               <div className="mag1">
                 <input
                   type="text"
-                  id="mag5"
+                  id="magone2"
                   class="form-control"
                   placeholder="Recipient's username"
                   aria-label="Recipient's username"
                   aria-describedby="basic-addon2"
                 />
               </div>
+            </div>
+            <div className="col-3">
+              <p className="labelmag6">Mã số thuế:</p>
+            </div>
+            <div className="col-1">
+              <div className="mag1">
+                <input
+                  type="text"
+                  id="magone2"
+                  class="form-control"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+              </div>
+            </div>
+            <div className="col-3">
+              <p className="labelmag6">Số tài khoản:</p>
+            </div>
+            <div className="col-1">
+              <div className="mag1">
+                <input
+                  type="text"
+                  id="magone2"
+                  class="form-control"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="row mag">
+            <div className="col-2">
+              <p className="labelmag55">Quốc tịch</p>
+            </div>
+            <div className="col-1">
+              <div className="mag1">
+                <input
+                  type="text"
+                  id="magone3"
+                  class="form-control"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+              </div>
+            </div>
+            <div className="col-3">
+              <p className="labelmag6">Nơi cư trú:</p>
+            </div>
+            <div className="col-1">
+              <div className="mag1">
+                <input
+                  type="text"
+                  id="magone3"
+                  class="form-control"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+              </div>
+            </div>
+            <div className="col-3">
+              <p className="labelmag6">Ngân hàng:</p>
+            </div>
+            <div className="col-1">
+              <div className="mag1">
+                <input
+                  type="text"
+                  id="magone3"
+                  class="form-control"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="row mag">
+            <div className="col-2">
+              <p className="labelmag666">Số điện thoại:</p>
+            </div>
+            <div className="col-1">
+              <div className="mag1">
+                <input
+                  type="text"
+                  id="magone4"
+                  class="form-control"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+              </div>
+            </div>
+
+            <div className="col-1">
+              <div className="mag1">
+                <input
+                  type="text"
+                  id="magone4"
+                  class="form-control"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="row mag">
+            <div className="col-3">
+              <p className="labelmag77fot">
+                là những trường thông tin bắt buộc
+              </p>
             </div>
           </div>
         </div>

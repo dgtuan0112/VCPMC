@@ -26,6 +26,66 @@ p.labelmag2 {
   color: rgba(229, 229, 229, 1);
   margin-top: 22px;
 }
+
+p.labelmag11 {
+  margin-left: 68px;
+  font-size: 9px;
+  margin-top: 22px;
+  color: rgba(229, 229, 229, 1);
+  font-weight: bold;
+}
+
+p.labelmag22 {
+  margin-left: 68px;
+  font-size: 9px;
+  /* margin-top: 5px; */
+  color: rgba(229, 229, 229, 1);
+  font-weight: bold;
+}
+
+p.labelmag33 {
+  margin-left: 68px;
+  font-size: 9px;
+  margin-top: -7px;
+  color: rgba(229, 229, 229, 1);
+  font-weight: bold;
+}
+p.labelmag333 {
+  margin-left: 68px;
+  font-size: 9px;
+  margin-top: 6px;
+  color: rgba(229, 229, 229, 1);
+  font-weight: bold;
+}
+p.labelmag44 {
+  margin-left: 68px;
+  font-size: 9px;
+  margin-top: -12px;
+  color: rgba(229, 229, 229, 1);
+  font-weight: bold;
+}
+p.labelmag55 {
+  margin-left: 68px;
+  font-size: 9px;
+  margin-top: -12px;
+  color: rgba(229, 229, 229, 1);
+  font-weight: bold;
+}
+p.labelmag666 {
+  margin-left: 68px;
+  font-size: 9px;
+  margin-top: -12px;
+  color: rgba(229, 229, 229, 1);
+  font-weight: bold;
+}
+p.labelmag77 {
+  margin-left: 68px;
+  font-size: 9px;
+  margin-top: -12px;
+  color: rgba(229, 229, 229, 1);
+  font-weight: bold;
+}
+
 p.labelmag3 {
 }
 
@@ -36,7 +96,37 @@ p.labelmag3 {
 input#magone {
   margin-left: -28px;
   width: 215px;
-  margin-top: 20px;
+}
+input#magone1 {
+  margin-left: -28px;
+  width: 215px;
+  margin-top: -5px;
+}
+input#magone2 {
+  margin-left: -28px;
+  width: 215px;
+}
+input#magone3 {
+  margin-left: -28px;
+  width: 215px;
+}
+input#magone4 {
+  margin-left: -28px;
+  width: 117px;
+}
+input#magone5 {
+  margin-left: -28px;
+  width: 215px;
+}
+input#magonee {
+  margin-left: -129px;
+  width: 215px;
+  margin-top: 5px;
+}
+input#magoneee {
+  margin-left: -129px;
+  width: 215px;
+  margin-top: -5px;
 }
 
 select#magtwo {
@@ -84,5 +174,47 @@ p.labelmag6 {
   font-size: 9px;
   font-weight: bold;
   color: aliceblue;
-  margin-top: 27px;
+  margin-top: 13px;
+}
+
+p.labelmag66 {
+  margin-left: 90px;
+  font-size: 9px;
+  font-weight: bold;
+  color: aliceblue;
+  margin-top: 5px;
+}
+input#flexRadioDefault1 {
+  margin-left: -28px;
+  margin-top: 20px;
+}
+input#flexRadioDefault2 {
+  margin-left: -28px;
+  margin-top: -4px;
+}
+label.form-check-label {
+  margin-left: 10px;
+  font-size: 9px;
+
+  margin-top: 21px;
+}
+label.form-check-label2 {
+  margin-left: 10px;
+  font-size: 9px;
+
+  margin-top: 21px;
+}
+
+p.titlelate {
+  margin-left: 68px;
+  font-size: 13px;
+  font-weight: bold;
+  color: brown;
+  margin-top: 24px;
+}
+
+p.labelmag77fot {
+  font-size: 7px;
+  font-weight: normal;
+  margin-left: -28px;
 }
