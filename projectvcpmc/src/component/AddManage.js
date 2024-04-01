@@ -36,7 +36,7 @@ const Manage = () => {
               <div className="mag1">
                 <input
                   type="text"
-                  id="magone"
+                  id="magonef"
                   class="form-control"
                   placeholder="Recipient's username"
                   aria-label="Recipient's username"
@@ -62,19 +62,9 @@ const Manage = () => {
                 </select>
               </div>
             </div>
-            {/* <div className="col-2">
-            <p className="text1">Mức nhuận bút</p>
-            <p className="text2">Quyền tác giả:</p>
-            <p className="text3">Quyền liên quan:</p>
-            <p className="text4">Quyền của người biểu diễn:</p>
-            <p className="text5">Quyền nhà sản xuất:</p>
-            <p className="text6">Bản ghi/video</p>
-          </div>
-          <div className="col-2">
-            <p className="text7">0%</p>
-            <p className="text8">50%</p>
-            <p className="text8">50%</p>
-          </div> */}
+            <div className="col-2">
+              <p className="text1">Mức nhuận bút</p>
+            </div>
           </div>
           <div className="row mag2">
             <div className="col-2">
@@ -91,6 +81,13 @@ const Manage = () => {
                   aria-describedby="basic-addon2"
                 />
               </div>
+            </div>
+            <div className="col-5"></div>
+            <div className="col-3">
+              <p className="text2">Quyền tác giả:</p>
+            </div>
+            <div className="col-1">
+              <p className="num1">0%</p>
             </div>
           </div>
           <div className="row mag3">
@@ -109,6 +106,10 @@ const Manage = () => {
                 />
               </div>
             </div>
+            <div className="col-4"></div>
+            <div className="col-2">
+              <p className="text3">Quyền liên quan:</p>
+            </div>
           </div>
           <div className="row mag4">
             <div className="col-2">
@@ -125,6 +126,40 @@ const Manage = () => {
                   aria-describedby="basic-addon2"
                 />
               </div>
+            </div>
+            <div className="col-5"></div>
+            <div className="col-3">
+              <p className="text4">Quyền của người biểu diễn:</p>
+            </div>
+            <div className="col-1">
+              <p className="num2">50%</p>
+            </div>
+          </div>
+          <div className="row mag3">
+            <div className="col-2">
+              <p className="labelmag4"></p>
+            </div>
+            <div className="col-2">
+              <div className="mag1"></div>
+            </div>
+            <div className="col-4"></div>
+            <div className="col-2">
+              <p className="text5">Quyền của nhà sản xuất:</p>
+            </div>
+            <div className="col-2">
+              <p className="num3">50%</p>
+            </div>
+          </div>
+          <div className="row mag3">
+            <div className="col-2">
+              <p className="labelmag4"></p>
+            </div>
+            <div className="col-2">
+              <div className="mag1"></div>
+            </div>
+            <div className="col-4"></div>
+            <div className="col-2">
+              <p className="text6">Bản ghi/video</p>
             </div>
           </div>
 
@@ -372,7 +407,7 @@ const Manage = () => {
               <div className="mag1">
                 <input
                   type="text"
-                  id="magone3"
+                  id="magone3ct"
                   class="form-control"
                   placeholder="Recipient's username"
                   aria-label="Recipient's username"
