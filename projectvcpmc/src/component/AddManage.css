@@ -9,8 +9,9 @@ p.addmag1 {
 }
 
 .addma_page {
-  background-color: black;
+  background-color: #141424;
 }
+
 p.labelmag1 {
   margin-left: 68px;
   font-size: 9px;
@@ -142,8 +143,11 @@ input#magoneee {
 
 select#magtwo {
   margin-left: -50px;
-  width: 95px;
+  width: 94px;
+  height: 30px;
   margin-top: 15px;
+  border: 1px solid;
+  color: rgba(255, 172, 105, 1);
 }
 
 p.labelmag3 {
@@ -221,7 +225,7 @@ p.titlelate {
   margin-left: 68px;
   font-size: 13px;
   font-weight: bold;
-  color: brown;
+  color: rgba(255, 172, 105, 1);
   margin-top: 24px;
 }
 
@@ -236,7 +240,7 @@ p.labelmag77fot {
 p.text1 {
   font-size: 9px;
   font-weight: bold;
-  color: tomato;
+  color: rgba(255, 172, 105, 1);
 }
 
 p.text2 {
@@ -294,4 +298,32 @@ p.num3 {
   margin-top: -78px;
   margin-left: -13px;
   color: rgba(229, 229, 229, 1);
+}
+
+button.save {
+  color: rgba(229, 229, 229, 1);
+  margin-left: 368px;
+  margin-bottom: 50px;
+  font-size: 9px;
+  width: 100px;
+  height: 28px;
+  border-radius: 8px;
+  background-color: rgba(255, 117, 6, 1);
+  border: 1px solid rgba(255, 117, 6, 1);
+}
+
+button.cancel {
+  color: rgba(255, 117, 6, 1);
+  margin-left: 540px;
+  margin-bottom: 50px;
+  font-size: 9px;
+  width: 100px;
+  height: 28px;
+  border-radius: 8px;
+  background-color: #141424;
+  border: 1px solid rgba(255, 117, 6, 1);
+}
+
+.row.mag4 {
+  border-bottom: 2px solid;
 }

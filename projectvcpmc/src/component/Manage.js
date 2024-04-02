@@ -503,10 +503,12 @@ const Manage = () => {
         <div className="col-2 contract ">
           <ul class="navbar-nav flex-column ">
             <li class="nav-item">
-              <FontAwesomeIcon icon={faPlus} style={{ color: "#ff8614" }} />
-              <a class="nav-link" href="/#">
-                Sửa thông tin
-              </a>
+              <NavLink to="/addmanage">
+                <FontAwesomeIcon icon={faPlus} style={{ color: "#ff8614" }} />
+                <a class="nav-link" href="/#">
+                  Thêm hợp đồng
+                </a>
+              </NavLink>
             </li>
           </ul>
         </div>

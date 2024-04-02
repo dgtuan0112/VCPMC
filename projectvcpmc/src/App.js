@@ -18,8 +18,9 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<AddManage />} />
-        {/* <Route path="/" element={<SelectExample />} /> */}
+        <Route path="/" element={<SelectExample />} />
+        <Route path="/addmanage" element={<AddManage />} />
+
         <Route path="/" element={<SelectExample />} />
         <Route path="/fogotpass" element={<FogotPass />} />
         <Route path="/success-pass" element={<SuccessPass />} />

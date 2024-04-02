@@ -468,6 +468,19 @@ const Manage = () => {
               </p>
             </div>
           </div>
+
+          <div className="row foot">
+            <div className="col-3">
+              <button type="submit" className="cancel">
+                hủy
+              </button>
+            </div>
+            <div className="col-3">
+              <button type="submit" className="save">
+                lưu
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
