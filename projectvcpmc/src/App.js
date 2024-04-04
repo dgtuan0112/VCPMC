@@ -13,12 +13,14 @@ import Calendarr from "./component/Calendarr";
 import RecordCard from "./component/RecordCard";
 import Playlistvideo from "./component/Playlistvideo";
 import AddManage from "./component/AddManage";
+import DetailManage from "./component/DetailManage";
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<SelectExample />} />
+        <Route path="/" element={<DetailManage />} />
+        {/* <Route path="/" element={<SelectExample />} /> */}
         <Route path="/addmanage" element={<AddManage />} />
 
         <Route path="/" element={<SelectExample />} />

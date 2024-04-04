@@ -1,0 +1,133 @@
+p.detail1 {
+  background-color: #ff7506;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 10px;
+  width: 115px;
+  height: 20px;
+  margin-left: 65px;
+}
+p.detail2 {
+  border: 1px solid #ff7506;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 10px;
+  width: 135px;
+  height: 20px;
+  margin-left: 65px;
+}
+
+p.detailmag1 {
+  margin-left: 68px;
+  font-size: 9px;
+  margin-top: 7px;
+  color: rgba(229, 229, 229, 1);
+  font-weight: bold;
+}
+
+p.detailmag3 {
+  margin-left: 69px;
+  margin-top: -21px;
+  font-size: 9px;
+  font-weight: bold;
+  color: rgba(229, 229, 229, 1);
+}
+
+p.detailmag4 {
+  margin-left: 69px;
+  margin-top: -10px;
+  font-size: 9px;
+  font-weight: bold;
+  color: rgba(229, 229, 229, 1);
+}
+
+p.detailmag5 {
+  margin-left: 69px;
+  margin-top: -9px;
+  font-size: 9px;
+  font-weight: bold;
+  color: rgba(229, 229, 229, 1);
+}
+p.detailmag6 {
+  margin-left: 69px;
+  margin-top: -9px;
+  font-size: 9px;
+  font-weight: bold;
+  color: rgba(229, 229, 229, 1);
+}
+
+p.textdetail1 {
+  font-size: 9px;
+  margin-top: 7px;
+  margin-left: -25px;
+  color: rgba(229, 229, 229, 1);
+}
+p.textdetail2 {
+  font-size: 9px;
+  margin-top: -20px;
+  margin-left: -25px;
+  color: rgba(229, 229, 229, 1);
+}
+p.textdetail3 {
+  font-size: 9px;
+  margin-top: -9px;
+  margin-left: -25px;
+  color: rgba(229, 229, 229, 1);
+}
+p.textdetail4 {
+  font-size: 9px;
+  margin-top: -8px;
+  margin-left: -25px;
+  color: rgba(229, 229, 229, 1);
+}
+p.textdetail5 {
+  font-size: 9px;
+  margin-top: -8px;
+  margin-left: -25px;
+  color: rgba(229, 229, 229, 1);
+}
+
+p.textde2 {
+  margin-left: 92px;
+  font-size: 9px;
+  font-weight: bold;
+  color: rgba(229, 229, 229, 1);
+  margin-top: -30px;
+}
+
+p.textde3 {
+  margin-left: 3px;
+  font-size: 9px;
+  font-weight: bold;
+  color: rgba(229, 229, 229, 1);
+  margin-top: -18px;
+}
+
+p.textde4 {
+  font-size: 9px;
+  margin-left: 92px;
+  margin-top: -16px;
+  color: rgba(229, 229, 229, 1);
+}
+
+p.textde5 {
+  font-size: 9px;
+  margin-left: 92px;
+  margin-top: -16px;
+  color: rgba(229, 229, 229, 1);
+}
+
+p.textde6 {
+  margin-left: 3px;
+  font-size: 9px;
+  /* font-weight: bold; */
+  color: rgba(229, 229, 229, 1);
+  margin-top: -25px;
+}
+
+p.numde2 {
+  font-size: 9px;
+  margin-top: -15px;
+  margin-left: -23px;
+  color: rgba(229, 229, 229, 1);
+}
