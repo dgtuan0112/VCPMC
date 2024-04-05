@@ -51,16 +51,7 @@ const DetailManage = () => {
 
             <div className="col-2">
               <div className="mag2">
-                <select
-                  id="magtwo"
-                  className="form-select"
-                  aria-label="Default select example"
-                >
-                  <option selected>tất cả</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
+                <p className="file1">hetthuongcannho.doc</p>
               </div>
             </div>
             <div className="col-2">
@@ -78,7 +69,12 @@ const DetailManage = () => {
                 </p>
               </div>
             </div>
-            <div className="col-5"></div>
+            <div className="col-2">
+              <div className="mag2">
+                <p className="file2">hetthuongcannho.doc</p>
+              </div>
+            </div>
+            <div className="col-1"></div>
             <div className="col-3">
               <p className="textde2">Quyền tác giả:</p>
             </div>
@@ -150,307 +146,167 @@ const DetailManage = () => {
 
           {/* SAU */}
 
-          <p className="titlelate">Thông tin pháp nhân ủy quyền</p>
+          <p className="titlelate"></p>
           <div className="row mag">
             <div className="col-2">
-              <p className="labelmag11">Pháp nhân ủy quyền</p>
+              <p className="detailmag1">Pháp nhân ủy quyền</p>
             </div>
-            <div className="col-1">
+            <div className="col-2">
               <div className="mag1">
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  name="flexRadioDefault"
-                  id="flexRadioDefault1"
-                />
-                <label className="form-check-label" for="flexRadioDefault1">
-                  Cá nhân
-                </label>
+                <p className="textdetail1">Cá nhân</p>
               </div>
             </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  name="flexRadioDefault"
-                  id="flexRadioDefault1"
-                />
-                <label className="form-check-label" for="flexRadioDefault1">
-                  Tổ chức
-                </label>
+            <div className="col-2">
+              <p className="labelmagla2">Số CMND/CCCD:</p>
+            </div>
+
+            <div className="col-2">
+              <div className="mag2">
+                <p className="filela1">123456789012</p>
               </div>
             </div>
-            <div className="col-3">
-              <p className="labelmag66">CMND/CCCD:</p>
+            <div className="col-2">
+              <p className="textla1">Email:</p>
             </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magonee"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-              </div>
-            </div>
-            <div className="col-3">
-              <p className="labelmag66">Email:</p>
-            </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magonee"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
+            <div className="col-2">
+              <div className="mag2">
+                <p className="la1">nguyenvana@gmail.com</p>
               </div>
             </div>
           </div>
 
-          <div className="row mag">
+          <div className="row magla2">
             <div className="col-2">
-              <p className="labelmag22">Tên người ủy quyền:</p>
+              <p className="detailmag1">Tên người ủy quyền</p>
             </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magone1"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-              </div>
-            </div>
-            <div className="col-3">
-              <p className="labelmag6">Ngày cấp:</p>
-            </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magone1"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-              </div>
-            </div>
-            <div className="col-3">
-              <p className="labelmag6">Tên đăng nhập:</p>
-            </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magone1"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className="row mag">
             <div className="col-2">
-              <p className="labelmag33">Giới tính</p>
-            </div>
-            <div className="col-1">
               <div className="mag1">
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  name="flexRadioDefault"
-                  id="flexRadioDefault2"
-                />
-                {/* <label className="form-check-label2" for="flexRadioDefault1">
-                  Cá nhân
-                </label> */}
+                <p className="textdetail1">Nguyễn Văn A</p>
               </div>
             </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  name="flexRadioDefault"
-                  id="flexRadioDefault2"
-                />
-                {/* <label className="form-check-label2" for="flexRadioDefault1">
-                  Tổ chức
-                </label> */}
-              </div>
-            </div>
-            <div className="col-3">
-              <p className="labelmag66">Nơi cấp:</p>
-            </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magoneee"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-              </div>
-            </div>
-            <div className="col-3">
-              <p className="labelmag66">Mật khẩu:</p>
-            </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magoneee"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="row mag">
             <div className="col-2">
-              <p className="labelmag44">Ngày sinh</p>
-            </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magone2"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-              </div>
-            </div>
-            <div className="col-3">
-              <p className="labelmag6">Mã số thuế:</p>
-            </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magone2"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-              </div>
-            </div>
-            <div className="col-3">
-              <p className="labelmag6">Số tài khoản:</p>
-            </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magone2"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="row mag">
-            <div className="col-2">
-              <p className="labelmag55">Quốc tịch</p>
-            </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magone3"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-              </div>
-            </div>
-            <div className="col-3">
-              <p className="labelmag6">Nơi cư trú:</p>
-            </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magone3ct"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-              </div>
-            </div>
-            <div className="col-3">
-              <p className="labelmag6">Ngân hàng:</p>
-            </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magone3"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="row mag">
-            <div className="col-2">
-              <p className="labelmag666">Số điện thoại:</p>
-            </div>
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magone4"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-              </div>
+              <p className="labelmagla2">Ngày cấp:</p>
             </div>
 
-            <div className="col-1">
-              <div className="mag1">
-                <input
-                  type="text"
-                  id="magone4"
-                  class="form-control"
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
+            <div className="col-2">
+              <div className="mag2">
+                <p className="filela1">10/07/2011</p>
+              </div>
+            </div>
+            <div className="col-2">
+              <p className="textla1">Tài khoản đăng nhập: </p>
+            </div>
+            <div className="col-2">
+              <div className="mag2">
+                <p className="la1">nguyenvana@gmail.com</p>
               </div>
             </div>
           </div>
-          <div className="row mag">
-            <div className="col-3">
-              <p className="labelmag77fot">
-                là những trường thông tin bắt buộc
-              </p>
+          <div className="row magla2">
+            <div className="col-2">
+              <p className="detailmag1">Ngày sinh:</p>
+            </div>
+            <div className="col-2">
+              <div className="mag1">
+                <p className="textdetail1">10/01/1984</p>
+              </div>
+            </div>
+            <div className="col-2">
+              <p className="labelmagla2">Nơi cấp:</p>
+            </div>
+
+            <div className="col-2">
+              <div className="mag2">
+                <p className="filela1">Tp.HCM, Việt Nam</p>
+              </div>
+            </div>
+            <div className="col-2">
+              <p className="textla1">Mật khẩu:</p>
+            </div>
+            <div className="col-2">
+              <div className="mag2">
+                <p className="la1">.........</p>
+              </div>
+            </div>
+          </div>
+          <div className="row magla2">
+            <div className="col-2">
+              <p className="detailmag1">Giới tính:</p>
+            </div>
+            <div className="col-2">
+              <div className="mag1">
+                <p className="textdetail1">Nam</p>
+              </div>
+            </div>
+            <div className="col-2">
+              <p className="labelmagla2">Mã số thuê:</p>
+            </div>
+
+            <div className="col-2">
+              <div className="mag2">
+                <p className="filela1">92387489</p>
+              </div>
+            </div>
+            <div className="col-2">
+              <p className="textla1">Số tải khoản</p>
+            </div>
+            <div className="col-2">
+              <div className="mag2">
+                <p className="la1">123112223213333</p>
+              </div>
+            </div>
+          </div>
+          <div className="row magla2">
+            <div className="col-2">
+              <p className="detailmag1">Quốc tịch:</p>
+            </div>
+            <div className="col-2">
+              <div className="mag1">
+                <p className="textdetail1">Việt Nam</p>
+              </div>
+            </div>
+            <div className="col-2">
+              <p className="labelmagla2">Nơi cư trú:</p>
+            </div>
+
+            <div className="col-2">
+              <div className="mag2">
+                <p className="filela1">
+                  69/53, Nguyễn Gia Trí,Phường 25,Quận Bình Thạnh,Thành Phố Hồ
+                  Chí Minh
+                </p>
+              </div>
+            </div>
+            <div className="col-2">
+              <p className="textla1">Ngân hàng:</p>
+            </div>
+            <div className="col-2">
+              <div className="mag2">
+                <p className="la1">ACB-Ngân hàng Á Châu</p>
+              </div>
+            </div>
+            <div className="col-2"></div>
+            <div className="col-2">
+              <div className="mag2"></div>
+            </div>
+          </div>
+          <div className="row magla2">
+            <div className="col-2">
+              <p className="detailmag1">Số điện thoại:</p>
+            </div>
+            <div className="col-2">
+              <div className="mag1">
+                <p className="textdetail1">(+84)345 678 901</p>
+              </div>
+            </div>
+            <div className="col-3"></div>
+
+            <div className="col-2">
+              <div className="mag2"></div>
+            </div>
+            <div className="col-2"></div>
+            <div className="col-2">
+              <div className="mag2"></div>
             </div>
           </div>
 
