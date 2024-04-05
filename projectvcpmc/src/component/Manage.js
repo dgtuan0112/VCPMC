@@ -181,10 +181,12 @@ const Manage = () => {
             </div>
             <div className="col-1">
               <div className="detail">
-                {" "}
-                <a class="nav-link" href="/#">
-                  xem chi tiết
-                </a>
+                <NavLink to="/detail">
+                  {" "}
+                  <a class="nav-link" href="/#">
+                    xem chi tiết
+                  </a>
+                </NavLink>
               </div>
             </div>
           </div>

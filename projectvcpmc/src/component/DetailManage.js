@@ -60,7 +60,7 @@ const DetailManage = () => {
           </div>
           <div className="row mag2">
             <div className="col-2">
-              <p className="detailmag3">Tên hợp đồng</p>
+              <p className="detailmag3">Tên hợp đồng:</p>
             </div>
             <div className="col-2">
               <div className="mag1">
@@ -84,7 +84,7 @@ const DetailManage = () => {
           </div>
           <div className="row mag3">
             <div className="col-2">
-              <p className="detailmag4">Ngày hiệu lực</p>
+              <p className="detailmag4">Ngày hiệu lực:</p>
             </div>
             <div className="col-2">
               <div className="mag1">
@@ -98,7 +98,7 @@ const DetailManage = () => {
           </div>
           <div className="row mag">
             <div className="col-2">
-              <p className="detailmag5">Ngày hết hạn</p>
+              <p className="detailmag5">Ngày hết hạn:</p>
             </div>
             <div className="col-1">
               <div className="mag1">
@@ -115,7 +115,7 @@ const DetailManage = () => {
           </div>
           <div className="row mag late">
             <div className="col-2">
-              <p className="detailmag6">Tình trạng</p>
+              <p className="detailmag6">Tình trạng:</p>
             </div>
             <div className="col-1">
               <div className="mag1">
@@ -140,16 +140,16 @@ const DetailManage = () => {
             </div>
             <div className="col-4"></div>
             <div className="col-2">
-              <p className="textde6">Bản ghi/video</p>
+              <p className="textde6">(Bản ghi/video)</p>
             </div>
           </div>
 
           {/* SAU */}
 
-          <p className="titlelate"></p>
+          <p className="titlelate">Thông tin pháp nhân ủy quyền</p>
           <div className="row mag">
             <div className="col-2">
-              <p className="detailmag1">Pháp nhân ủy quyền</p>
+              <p className="detailmag1">Pháp nhân ủy quyền:</p>
             </div>
             <div className="col-2">
               <div className="mag1">

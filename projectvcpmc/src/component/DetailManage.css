@@ -1,3 +1,7 @@
+.addmag {
+  height: 608px;
+}
+
 p.detail1 {
   background-color: #ff7506;
   border-radius: 15px;
@@ -149,7 +153,7 @@ p.file2 {
 p.textla1 {
   font-size: 9px;
   font-weight: bold;
-  color: rgba(255, 172, 105, 1);
+  color: rgba(229, 229, 229, 1);
   margin-top: 7px;
 }
 

@@ -24,7 +24,7 @@ const Manage = () => {
   return (
     <div className="addma_page">
       <div className="pagess"></div>
-      <div className="addmag">
+      <div className="addmagadd">
         <p className="addmag1">quản lý - quản lý hợp đồng - Thêm hợp đồng</p>
         <h4 className="addmag2">Thêm hợp đồng ủy quyền mới</h4>
         <div className="row">
