@@ -311,16 +311,8 @@ const DetailManage = () => {
           </div>
 
           <div className="row foot">
-            <div className="col-3">
-              <button type="submit" className="cancel">
-                hủy
-              </button>
-            </div>
-            <div className="col-3">
-              <button type="submit" className="save">
-                lưu
-              </button>
-            </div>
+            <div className="col-3"></div>
+            <div className="col-3"></div>
           </div>
         </div>
       </div>
